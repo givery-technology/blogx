@@ -1,0 +1,3 @@
+Blog.id,Post.id,Post.genre_id,Post.title,Post.pagename,Post.menu,Post.content,Post.public,Keyword.id,Keyword.keyword,Keyword.url,Keyword.visible,Arbitrary.keyword
+,,1,テストアメ・アメJジャンル指定,,detox,テストアメ・アメJジャンル指定,1,,テストアメ・アメJジャンル指定,,1,1
+,,1,テストアメ・アメJジャンル指定,,detox,テストアメ・アメJジャンル指定,1,,テストアメ・アメJジャンル指定,,1,1

@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+body{
+	background: url(https://www.sem-check.com/blogx/templates/ameba-201/img/bg.gif) repeat 0 0 #fff;
+	line-height: 1.8;
+}
+
+div#wrapper{
+	width: 960px;
+	margin: 0 auto 40px;
+	text-align: left;
+}
+
+div#footer{
+	text-align: center;
+	background: #333;
+}
+
+div#footer p#copyright{
+	text-align: center;
+	padding: 5px;
+	color: #fff;
+	font-family:"lucida grande", tahoma, verdana, arial, sans-serif!important;
+}

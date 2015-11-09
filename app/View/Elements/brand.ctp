@@ -1,0 +1,1 @@
+© <?php echo date('Y',time()) ?> <a href="<?php echo Configure::read('COMPANY_URL'); ?>" alt="<?php echo Configure::read('COMPANY_NAME'); ?>" target="_blank"><?php echo Configure::read('COMPANY_NAME_INC'); ?></a>

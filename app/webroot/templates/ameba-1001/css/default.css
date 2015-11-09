@@ -1,0 +1,260 @@
+/*■初期設定*/
+
+body{
+	color:#000000;/*通常のテキストカラー*/
+	}
+a{
+	color:#0099FF;/*通常のリンクテキストカラー*/
+	}
+a:hover{
+	color:#FF9900;/*マウスが乗った時の通常のリンクテキストカラー*/
+	text-decoration:underline;/*マウスが乗った時下線を表示（つけない場合は underline を none へ）*/
+	}
+
+/*■初期設定ここまで*/
+
+
+
+*{ margin:0; padding:0;}
+img{ border:0;}
+
+
+table,div{
+	margin: 0px -20px 0px 0px;
+	}
+
+	
+/*■フォントサイズ調整*/
+body {
+    font-size: 13px; /* モダンブラウザ */
+    *font-size: small; /* IE 7 */
+    *font: x-small; /* IE 6以下 */
+	font-family:'メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+p,th,td,li{
+	font-size:12px;
+	*font-size:90%;
+	*font:90%;
+	}
+
+html{
+	width:100%;
+	}
+body{
+	text-align:left;
+	width:100%;
+	}
+
+
+
+/***見出しタグ***/
+h2{ font-size:14px;
+	border: solid;
+	border-color:#333333; /*ページサブタイトル罫線の色*/
+	background-color:#05BB16;
+	border-width:0px 0 0 4px ;
+	color:#ffffff;
+	text-indent:10px;
+	line-height:40px;
+	vertical-align:top;
+	margin:0 0 4px 0;}
+
+h3{ width:100%;
+	font-size:13px;
+	border: dotted;
+	border-color: #333333; /*ページサブタイトル罫線の色*/
+	border-width:2px 0 2px 0;
+	color:#333333;
+	text-indent:10px;
+	line-height:18px;
+	vertical-align:top;
+	margin:20px 0 4px 0 ;	}
+
+.CNT{ text-align:center;}
+.R{ text-align:right;}
+.L{ text-align:left;}
+
+/**レイアウト**/
+#head{
+	height:60px;
+	border:solid;
+	border-color:#FF3399; /*ヘッダーの上部ライン*/
+	border-width:10px 0 0 0;
+	background-color:#333333;/*ヘッダーの背景色*/
+	margin:0 0 20px 0;
+	}
+
+#head h1{
+	font-size:25px;
+	font-weight:normal;
+	padding:10px;}
+
+#head h1 a{ text-decoration:none;
+			color:#FFFFFF;/*タイトル部分の色*/ }
+#head h1 a:hover{ color:#FFFFFF;/*タイトル部分の色（マウスが乗っている時）*/ }
+
+#contents{
+	width:98%;
+	margin: 40px 0px 0px 30px;
+	text-align:left;
+	}
+
+#left_menu{
+	position:relative;
+	z-ndex:5;
+	float:left;
+	clear:left;
+	width:160px;
+	word-wrap:break-word;
+	}
+
+#left_menu p{
+	margin:10px 0 0 0;
+	}
+
+#left_menu p.title{
+	font-size:13px;
+	text-align:center;
+	color:#FFFFFF; /*左メニュータイトルのテキストの色*/
+	background-color:#333333;　/*左メニュータイトルの背景の色*/
+	width:160px;
+	padding:2px 0 2px 0;
+	margin:0 0 1px 0;
+	border:solid #05BB16;
+	border-width:2px 0 0 0;
+	}
+
+#left_menu ul{
+	width:160px;
+	background-color:#663300;
+	list-style-type:none;
+	margin-bottom:20px;
+	padding:0 0 1px 0;
+
+ 	}
+
+#left_menu ul li{
+	width:158px;
+	margin:0px 1px 0px 1px;
+	border:solid #663300;
+	border-width:1px 0 0px 0;
+	}
+
+#left_menu ul li a{
+	color:#333333;
+	display:block;
+	text-decoration:none;
+	vertical-align:top;
+	font-size:13px;
+	line-height:22px;
+	background-color:#FFFFFF;
+	width:158px;
+	text-indent:6px;
+	word-wrap:break-word;
+	}
+#left_menu ul li a:hover{
+	background-color:#05BB16;
+	border-left-color:#FF6600;
+	}
+
+#main{
+	margin-left:-100%;
+	width:100%;
+	float:right;
+	}
+
+#main div#main_inner{
+	margin-left:168px;
+	margin-right:168px;
+	}
+#main div#main_inner p{
+	line-height:2.0em;
+	margin:0 0 16px 0;
+	}
+
+
+#right_menu{
+	float:right;
+	_clear:left;
+	width:160px;
+	}
+
+#right_menu p{
+	margin:10px 0 0 0;
+	}
+#right_menu p.title{
+	font-size:13px;
+	text-align:center;
+	color:#FFFFFF; /*右メニュータイトルのテキストの色*/
+	background-color:#333333;　/*右メニュータイトルの背景の色*/
+	width:160px;
+	padding:2px 0 2px 0;
+	margin:0 0 1px 0;
+	border: solid #FF9999;
+	border-width:2px 0 0 0;
+	}
+
+
+#right_menu ul{
+	width:160px;
+	background-color:#663300;
+	list-style-type:none;
+	margin-bottom:20px;
+	border:solid #333333;
+	border-width:0 0 1px 0;
+	}
+
+#right_menu ul li{
+	width:158px;
+	margin:1px 1px 0 1px;
+	}
+
+#right_menu ul li a{
+	color:#333333;
+	text-decoration:none;
+	vertical-align:top;
+	font-size:13px;
+	line-height:22px;
+	height:22px;
+	display:block;
+	background-color:#FFFFFF;
+	width:158px;
+	text-indent:6px;
+	}
+
+#right_menu ul li a:hover{
+	background-color:#FF3399;
+	border-left-color:#FF6600;
+	}
+
+
+#right_menu ul li a:hover{
+	background-color:#FF3399;
+	border-left-color:#FF6600;
+	}
+#right_menu p{
+	margin:10px 0 0 0;
+	}
+#foot_up{
+	clear:both;
+	}
+#foot{
+	background-color:#333333;　/*フッターコピーライト部分の背景色*/
+	border:solid #FF3366;
+	border-width:0px 0 3px 0;
+	color:#FFFFFF; /*コピーライトのテキストの色*/
+	height:30px;
+	clear:both;
+	text-align:center;
+	margin:20px 0 0 0;
+	font-size:11px;
+	padding:6px 0 0 0;
+	}
+#foot a{
+	color:#FFFFFF;
+	text-decoration:none;
+	}
+#foot a:hover{
+	color:#FFFFFF;
+	}
+

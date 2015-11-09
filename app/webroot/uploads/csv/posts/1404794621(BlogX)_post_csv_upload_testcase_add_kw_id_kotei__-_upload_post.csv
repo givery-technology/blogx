@@ -1,0 +1,8 @@
+Post.id,Post.title,Post.blog_id,Post.pagename,Post.menu,Post.content,Post.public,Keyword.id,Keyword.keyword,Keyword.url,Keyword.visible,Arbitrary.keyword
+,CSV Test Post 1 fixed id,1,test 1,biyou,<p>Content 1</p>,1,,csv kw 1,http://ddnb.info,1,1
+,CSV Test Post 1 fixed id,1,test 1,biyou,<p>Content 7</p>,1,,Post 1 kw 2,http://ddnb.info,1,1
+,CSV Test Post 2 (Post.public = 0),2,test 2,,<p>Content 2</p>,0,,csv kw 2,http://ddnb.info,1,1
+,CSV Test Post 3,3,test 3,,<p>Content 3</p>,1,,csv kw 3,http://ddnb.info,1,1
+,CSV Test Post 4 (Post.id = Null),4,test 4,,<p>Content 4</p>,1,,csv kw 4,http://ddnb.info,1,1
+,CSV Test Post 5 fixed id,5,test 5,,<p>Content 5</p>,1,,csv kw 5,http://ddnb.info,0,1
+,CSV Test Post 6 fixid,6,test 6,,<p>Content 6</p>,1,,csv kw 6,http://ddnb.info,1,1

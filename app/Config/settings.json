@@ -1,0 +1,31 @@
+{
+	"Post": {
+		"HEADER_CSV_VIEW_POSTLIST": {
+			"Post": {
+				"id": "id",
+				"title": "\u30bf\u30a4\u30c8\u30eb",
+				"content_no_tag": "Content no tag"
+			},
+			"Blog": {
+				"domain": "Blog Url"
+			}
+		}
+	},
+	"Link": {
+		"link_add": "\u30ea\u30f3\u30af\u8ffd\u52a0",
+		"type1": "link",
+		"type": {
+			"1": "\u5bfe\u7b56\u7528",
+			"2": "\u5f35\u30ea\u30f3\u30af",
+			"3": "\u30b3\u30f3\u30da\u30c1\u30bf\u30fc"
+		}
+	},
+	"BOT": {
+		"Ver1": "Mozilla/5.0 (compatible; giverybot/1.0; +http://www.seoanswer.jp/)",
+		"Default": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.1.4322)"
+	},
+	"LinkContent": {
+		"view": "\u5185\u90e8\u30c7\u30fc\u30bf\u8a73\u7d30",
+		"view_link": "\u30ea\u30f3\u30af\u8a73\u7d30"
+	}
+}

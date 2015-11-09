@@ -1,0 +1,160 @@
+.header_scroll {
+    background: url("/img/bg_head.gif") repeat-x scroll center bottom #FFFFFF;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 3px 5px 5px;
+    text-decoration: none;
+}
+.header_scroll a:link {
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.header_scroll a:visited {
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.header_scroll a:hover {
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.header_scroll a:active {
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.header_scroll_gray {
+    background: url("/img/bg_head_g.gif") repeat-x scroll center bottom #AFAFAF;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 3px 5px 5px;
+    text-decoration: none;
+}
+.header_scroll_gray a:link {
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.header_scroll_gray a:visited {
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.header_scroll_gray a:hover {
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.header_scroll_gray a:active {
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.header_scroll_white {
+    background: url("/img/bg_head_w.gif") repeat-x scroll center bottom #FFFFFF;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 3px 5px 5px;
+    text-decoration: none;
+}
+.header_scroll_white a:link {
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.header_scroll_white a:visited {
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.header_scroll_white a:hover {
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.header_scroll_white a:active {
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.header_scroll_rainbow {
+    background: url("/img/bg_head_r.gif") repeat-x scroll center bottom #FFFFFF;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 3px 5px 5px;
+    text-decoration: none;
+}
+.header_scroll_white a:link {
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.header_scroll_white a:visited {
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.header_scroll_white a:hover {
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.header_scroll_white a:active {
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.header_scroll_blue {
+    background: url("/img/bg_head_blue.gif") repeat-x scroll center bottom #FFFFFF;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 3px 5px 5px;
+    text-decoration: none;
+}
+.header_scroll_blue a:link {
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.header_scroll_blue a:visited {
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.header_scroll_blue a:hover {
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.header_scroll_blue a:active {
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}

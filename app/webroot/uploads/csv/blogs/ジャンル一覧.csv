@@ -1,0 +1,235 @@
+Blog.id,Blog.genre_id,Blog.name,Blog.ip,Blog.domain,Category.name,Design.name
+1,1,アメーバ [美容] 123 ⑥ kirari-auction.co,69.41.247.5,http://kirari-auction.co/,アメーバ,アメーバ [美容] 123-101 auction-field.com
+2,25,アメJ [生活] 301-A ① pet-road.net,129.121.103.103,http://pet-road.net/,アメJ,アメJ
+3,26,J [-] 1001-A ① biyou-love.xyz,159.174.255.225,http://biyou-love.xyz/,J,J [-] 1001A biyou-service.com
+4,4,IP100 [-] 101-A ⑨ jiko-te-itai.info,65.75.134.80,http://jiko-te-itai.info/,IP-100,IP100 [-] 101-A koutsuujiko-teritory.com
+5,3,IP200 [-] 201-B ④ floorcoating-club.info,64.247.176.173,http://floorcoating-club.info/,IP-200,IP200 [-] 201-B floorcoating-world.com
+6,1,アメJ [美容] 203-A ⑥ shiwa-nakusu.co,65.75.133.196,http://shiwa-nakusu.co/,J,J-203-A 
+7,1,アメJ [美容] 203-A ④ key-koukan.asia,65.75.135.187,http://key-koukan.asia/,J,J-203-A-keys-kirakira
+8,1,アメJ [美容] 203-A ⑩ mastsugeekusute-club.co,65.75.136.180,http://mastsugeekusute-club.co/,J,J-203-A-mastsugeekusute-stage
+9,1,アメJ [美容] 203-A ⑨ datsumou-mania.info,65.75.137.179,http://datsumou-mania.info/,J,J-203-A-datsumou-garden
+10,1,アメJ [美容] 203-A ⑦ antiageing-fan.xyz,65.75.138.185,http://antiageing-fan.xyz/,J,J-203-A-antiageing-road.net
+11,1,アメJ [美容] 203-A ⑧ diet-fanfan.asia,65.75.139.167,http://diet-fanfan.asia/,J,J-203-A-diet-street.net
+12,1,アメJ [美容] 203-A ⑤ cosme-lover.info,65.75.140.169,http://cosme-lover.info/,J,J-203-A-keshouhin-location.com
+13,1,アメJ [美容] 203-A ② datsumo-suki.co,65.75.141.168,http://datsumo-suki.co/,J,J-203-A-datumou-beaty.com
+14,1,アメJ [美容] 203-A ③ clean-bighome.xyz,65.75.142.157,http://clean-bighome.xyz/,J,J-203-A-clean-kirakiravline.com 
+15,25,アメJ [生活] 301-A ② royaljelly-biyou.xyz,129.121.192.36,http://royaljelly-biyou.xyz/,アメJ,アメJ-royaljelly-location.net
+16,25,アメJ [生活] 301-A ③ yasetaijosei.asia,129.121.193.47,http://yasetaijosei.asia/,アメJ,アメJ-hossori-diettter.com
+17,25,アメJ [生活] 301-A ④ lovery-color-contact.info,129.121.194.34,http://lovery-color-contact.info/,アメJ,アメJ-bigeyes-contact.com
+18,25,アメJ [生活] 301-A ⑤ kawaimedress.com,129.121.195.42,http://kawaimedress.com/,アメJ,アメJ-kawaimedress.com
+19,25,アメJ [生活] 301-A ⑥ kabu-dondon.co,kabu-dondon.co,http://kabu-dondon.co/,アメJ,アメJ-kabu-street.com
+20,25,アメJ [生活] 301-A ⑦ kabarai-street.com,129.121.197.43,http://kabarai-street.com/,アメJ,アメJ-kabarai-street.com
+21,25,アメJ [生活] 301-A ⑧ company-club.asia,129.121.198.31,http://company-club.asia/,アメJ,アメJ-kaishasetsuritsu-street.com
+22,25,アメJ [生活] 301-A ⑨ kaikeishi-house.info,129.121.199.40,http://kaikeishi-house.info/,アメJ,アメJ-kaikeishi-street.com
+23,25,アメJ [生活] 301-A ⑩ bern-madame.com,129.121.200.32,http://bern-madame.com/,アメJ,アメJ-bern-madame.com
+24,18,アメJ [金融] 102-A ⑨ kabaraihouse.asia,129.121.41.55,http://kabaraihouse.asia/,J,アメJ [金融] 102A kabarai-stage.com
+25,18,アメJ [金融] 102-A ⑧ silver-kabu.xyz,129.121.42.53,http://silver-kabu.xyz/,J,アメJ [金融] 102A kabarai-stage.com
+26,18,アメJ [金融] 102-A ⑦ kawase-white.co,129.121.43.252,http://kawase-white.co/,J,アメJ [金融] 102A kabarai-stage.com
+27,18,アメJ [金融] 102-A ⑩ kaikeishi-study.info,129.121.44.251,http://kaikeishi-study.info/,J,アメJ [金融] 102A kabarai-stage.com
+28,18,アメJ [金融] 102-A ① company-red.asia,129.121.45.254,http://company-red.asia/,J,アメJ [金融] 102A kabarai-stage.com
+29,18,アメJ [金融] 102-A ⑤ sweet-fragrance.asia,129.121.46.53,http://sweet-fragrance.asia/,J,アメJ [金融] 102A kabarai-stage.com
+30,7,アメJ [結婚] 302-A ① kekkonyubiwa-location.com,129.121.201.37,http://kekkonyubiwa-location.com/,アメJ,アメJ【結婚】-302-A-http://kekkonyubiwa-location.com
+31,18,アメJ [金融] 102-A ③ kinkaitori-coco.co,129.121.47.57,http://kinkaitori-coco.co/,J,アメJ [金融] 102A kabarai-stage.com
+32,7,アメJ [結婚] 302-A ② kekkonsoudan-club.co,129.121.202.29,http://kekkonsoudan-club.co/,アメJ,アメJ【結婚】-302-A-http://kekkonsoudanjo-location.com
+33,18,アメJ [金融] 102-A ④ fx-go-money.xyz,129.121.48.50,http://fx-go-money.xyz/,J,アメJ [金融] 102A kabarai-stage.com
+34,7,アメJ [結婚] 302-A ③ kekkonshiki-location.com/,129.121.203.35,http://kekkonshiki-location.com/,アメJ,アメJ【結婚】-302-A-http://kekkonyubiwa-location.com
+35,18,アメJ [金融] 102-A ⑥ gold-cashing.info,129.121.49.254,http://gold-cashing.info/,J,アメJ [金融] 102A kabarai-stage.com
+36,7,アメJ [結婚] 302-A ④ dress-location.net,129.121.204.41,http://dress-location.net/,アメJ,アメJ【結婚】-302-A-http://kekkonyubiwa-location.com
+37,7,アメJ [結婚] 302-A ⑤ weddingdress-road.net,129.121.205.33,http://weddingdress-road.net/,アメJ,アメJ【結婚】-302-A-http://kekkonyubiwa-location.com
+38,7,アメJ [結婚] 302-A ⑥ bag-location.com,129.121.206.37,http://bag-location.com/,アメJ,アメJ【結婚】-302-A-http://kekkonyubiwa-location.com
+39,7,アメJ [結婚] 302-A ⑦ thanks-gift.xyz,129.121.207.35,http://thanks-gift.xyz/,アメJ,アメJ【結婚】-302-A-http://kekkonyubiwa-location.com
+40,7,アメJ [結婚] 302-A ⑧ kagu-stage.com,129.121.208.10,http://kagu-stage.com/,アメJ,アメJ【結婚】-302-A-http://kekkonyubiwa-location.com
+41,7,アメJ [結婚] 302-A ⑨ hotel-road.net,129.121.209.42,http://hotel-road.net/,アメJ,アメJ【結婚】-302-A-http://kekkonyubiwa-location.com
+42,7,アメJ [結婚] 302-A ⑩ novelty-way.com,129.121.210.8,http://novelty-way.com/,アメJ,アメJ【結婚】-302-A-http://kekkonyubiwa-location.com
+43,18,アメJ [金融] 102-A ② about-creditcardgenkinka.info,129.121.50.254,http://about-creditcardgenkinka.info/,J,アメJ [金融] 102A kabarai-stage.com
+44,12,アメJ [オフィス] 901-A ① money-fan.co,159.174.5.210,http://money-fan.co/,アメJ,アメJ [オフィス] 901-A http://www.cms-garden.net/
+45,22,アメJ [旅行] 106-A ② kaigai-travel-gogo.co,129.121.110.239,http://kaigai-travel-gogo.co/,アメJ,アメJ [旅行] 106A kaigai-travel-world.com
+46,22,アメJ [旅行] 106-A ⑩ global-eikaiwa.co,129.121.111.15,http://global-eikaiwa.co/,アメJ,アメJ [旅行] 106A kaigai-travel-world.com
+47,12,アメJ [オフィス] 901-A ② denwadaikou-location.net,159.174.2.42,http://denwadaikou-location.net/,アメJ,アメJ [オフィス] 901-A http://www.cms-garden.net/
+48,22,アメJ [旅行] 106-A ⑦ kokunairyokou-gogo.xyz,129.121.112.38,http://kokunairyokou-gogo.xyz/,アメJ,アメJ [旅行] 106A kaigai-travel-world.com
+49,12,アメJ [オフィス] 901-A ③ waterserver-green.xyz,159.174.3.179,http://waterserver-green.xyz/,アメJ,アメJ [オフィス] 901-A http://www.cms-garden.net/
+50,22,アメJ [旅行] 106-A ③ kaigairyokou-gogo.xyz,129.121.113.37,http://kaigairyokou-gogo.xyz/,アメJ,アメJ [旅行] 106A kaigai-travel-world.com
+51,12,アメJ [オフィス] 901-A ④ kawase-way.net,159.174.4.94,http://kawase-way.net/,アメJ,アメJ [オフィス] 901-A http://www.cms-garden.net/
+52,22,アメJ [旅行] 106-A ⑤ fudousantanpoloan-fan.info,129.121.114.32,http://fudousantanpoloan-fan.info/,アメJ,アメJ [旅行] 106A kaigai-travel-world.com
+53,12,アメJ [オフィス] 901-A ⑤ privacymark-way.com?,159.174.6.107,http://privacymark-way.com/,アメJ,アメJ [オフィス] 901-A http://www.cms-garden.net/
+54,22,アメJ [旅行] 106-A ④ chintai-bighouse.asia,129.121.115.38,http://chintai-bighouse.asia/,アメJ,アメJ [旅行] 106A kaigai-travel-world.com
+55,12,アメJ [オフィス] 901-A ⑥ bengoshi-road.com,159.174.7.231,http://bengoshi-road.com/,アメJ,アメJ [オフィス] 901-A http://www.cms-garden.net/
+56,12,アメJ [オフィス] 901-A ⑦ chintai-estate.com,159.174.8.18,http://chintai-estate.com/,アメJ,アメJ [オフィス] 901-A http://www.cms-garden.net/
+57,22,アメJ [旅行] 106-A ⑥ esute-mania.co,129.121.116.253,http://esute-mania.co/,アメJ,アメJ [旅行] 106A kaigai-travel-world.com
+58,12,アメJ [オフィス] 901-A ⑧ copernicus-tower.com,159.174.9.140,http://copernicus-tower.com/,アメJ,アメJ [オフィス] 901-A http://www.cms-garden.net/
+59,12,アメJ [オフィス] 901-A ⑨ gapogapo-tanpoloan.com,159.174.10.33,http://gapogapo-tanpoloan.com/,アメJ,アメJ [オフィス] 901-A http://www.cms-garden.net/
+60,22,アメJ [旅行] 106-A ① kaigairyokou-suki.info,129.121.117.36,http://kaigairyokou-suki.info/,アメJ,アメJ [旅行] 106A kaigai-travel-world.com
+61,12,アメJ [オフィス] 901-A ⑩ home-kariyou.com,159.174.11.186,http://home-kariyou.com/,アメJ,アメJ [オフィス] 901-A http://www.cms-garden.net/
+62,22,アメJ [旅行] 106-A ⑨ mansion-live.info,129.121.118.35,http://mansion-live.info/,アメJ,アメJ [旅行] 106A kaigai-travel-world.com
+63,22,アメJ [旅行] 106-A ⑧ shaken-club.asia,129.121.119.33,http://shaken-club.asia/,アメJ,アメJ [旅行] 106A kaigai-travel-world.com
+64,23,アメJ [不動産] 304-A ① fudousansan.xyz,129.121.221.37,http://fudousansan.xyz/,J,アメJ [不動産] 304A looooon.com
+65,23,アメJ [不動産] 304-A ⑦ seimeihoken-fan.info,129.121.222.32,http://seimeihoken-fan.info/,J,アメJ [不動産] 304A looooon.com
+66,23,アメJ [不動産] 304-A ③ kagu-club.info,129.121.223.5,http://kagu-club.info/,J,アメJ [不動産] 304A looooon.com
+67,23,アメJ [不動産] 304-A ④ wood-furniture.co,129.121.224.35,http://wood-furniture.co/,J,アメJ [不動産] 304A looooon.com
+68,23,アメJ [不動産] 304-A ⑩ alldenka-house.asia,129.121.225.25,http://alldenka-house.asia/,J,アメJ [不動産] 304A looooon.com
+69,23,アメJ [不動産] 304-A ⑤ officeiten-fan.xyz,129.121.226.34,http://officeiten-fan.xyz/,J,アメJ [不動産] 304A looooon.com
+70,23,アメJ [不動産] 304-A ⑥ uniform-fan.asia,129.121.227.39,http://uniform-fan.asia/,J,アメJ [不動産] 304A looooon.com
+71,23,アメJ [不動産] 304-A ⑨ bouhancamera-ooo.xyz,129.121.228.6,http://bouhancamera-ooo.xyz/,J,アメJ [不動産] 304A looooon.com
+72,23,アメJ [不動産] 304-A ⑧ callcenter-home.co,129.121.229.29,http://callcenter-home.co/,J,アメJ [不動産] 304A looooon.com
+73,23,アメJ [不動産] 304-A ② originaltshirt-fan.asia,129.121.230.36,http://originaltshirt-fan.asia/,J,アメJ [不動産] 304A looooon.com
+74,26,J [-] 1001-A ② zeirishi-naritai.asia,159.174.128.2,http://zeirishi-naritai.asia/,J,J
+75,21,アメJ [エコ／リサイクル] 205-A ① golfkaiinken-way.net,65.75.153.168,http://golfkaiinken-way.net/,アメJ,[エコ] 205 A golfkaiinken-way.net
+76,21,アメJ [エコ／リサイクル] 205-A ② recycle-road.com,65.75.154.167,http://recycle-road.com/,アメJ,[エコ] 205 A golfkaiinken-way.net
+77,21,アメJ [エコ／リサイクル] 205-A ③ kurumakaitori-location.com,65.75.155.168,http://kurumakaitori-location.com/,アメJ,[エコ] 205 A golfkaiinken-way.net
+78,21,アメJ [エコ／リサイクル] 205-A ④ brand-fanfan.info,65.75.156.166,http://brand-fanfan.info/,アメJ,[エコ] 205 A golfkaiinken-way.net
+79,21,アメJ [エコ／リサイクル] 205-A ⑤ chuukosha-location.net,65.75.157.173,http://chuukosha-location.net/,アメJ,[エコ] 205 A golfkaiinken-way.net
+80,21,アメJ [エコ／リサイクル] 205-A ⑥ soushiki-garden.net,65.75.158.181,http://soushiki-garden.net/,アメJ,[エコ] 205 A golfkaiinken-way.net
+81,21,アメJ [エコ／リサイクル] 205-A ⑦ floorcoating-road.com,65.75.159.176,http://floorcoating-road.com/,アメJ,[エコ] 205 A golfkaiinken-way.net
+82,21,アメJ [エコ／リサイクル] 205-A ⑧ insatsu-road.net,65.75.160.174,http://insatsu-road.net/,アメJ,[エコ] 205 A golfkaiinken-way.net
+83,21,アメJ [エコ／リサイクル] 205-A ⑨ inkan-road.net,65.75.161.179,http://inkan-road.net/,アメJ,[エコ] 205 A golfkaiinken-way.net
+84,21,アメJ [エコ／リサイクル] 205-A ⑩ tsuuhan-location.net,65.75.162.171,http://tsuuhan-location.net/,アメJ,[エコ] 205 A golfkaiinken-way.net
+85,2,アメJ [アダルト] 303-A ⑦ omiai-pink.info,129.121.211.31,http://omiai-pink.info/,J,アメJ [アダルト] 303A omiai-street.net
+86,11,アメJ [アダルト] 303-A ③ audition-fight.info,129.121.212.28,http://audition-fight.info/,J,アメJ [アダルト] 303A omiai-street.net
+87,2,アメJ [アダルト] 303-A ⑧ tyousa-omakase.co,129.121.213.41,http://tyousa-omakase.co/,J,アメJ [アダルト] 303A omiai-street.net
+88,2,アメJ [アダルト] 303-A ⑤ deai-red.xyz,129.121.214.25,http://deai-red.xyz/,J,アメJ [アダルト] 303A omiai-street.net
+89,11,アメJ [アダルト] 303-A ① tantei-club.xyz,129.121.215.33,http://tantei-club.xyz/,J,アメJ [アダルト] 303A omiai-street.net
+90,26,J [-] 1001-A ③ traveling-sea.info,159.174.129.137,http://traveling-sea.info/,J,J
+91,11,アメJ[アダルト] 303-A ⑨ keiba-win.xyz,129.121.216.38,http://keiba-win.xyz/,J,アメJ [アダルト] 303A omiai-street.net
+92,11,アメJ [アダルト] 303-A ④ drug-blue.co,129.121.217.34,http://drug-blue.co/,J,アメJ [アダルト] 303A omiai-street.net
+93,2,アメJ [アダルト] 303-A ⑩ auction-money.asia,129.121.218.26,http://auction-money.asia/,J,アメJ [アダルト] 303A omiai-street.net
+94,11,アメJ [アダルト] 303-A ② uranai-pink.asia,129.121.219.35,http://uranai-pink.asia/,J,アメJ [アダルト] 303A omiai-street.net
+95,2,アメJ [アダルト] 303-A ⑥ shoumei-lamp.asia,129.121.220.29,http://shoumei-lamp.asia/,J,アメJ [アダルト] 303A omiai-street.net
+96,26,J [-] 1001-A ④ renthouse-and-house.co,159.174.129.137,http://renthouse-and-house.co/,J,J
+97,4,IP100 [-] 101-A ⑧ ofice-job.asia,129.121.32.11,http://ofice-job.asia/,IP-100,IP100 [-] 101-A callcenter-teritory.com
+98,4,IP100 [-] 101-A ⑦ japantravel.xyz,129.121.33.19,http://japantravel.xyz/,IP-100,IP100 [-] 101-A kokunairyokou-teritory.com
+99,4,IP100 [-] 101-A ⑥ dietdiet-house.co,129.121.34.16,http://dietdiet-house.co/,IP-100,IP100 [-] 101-A dietdiet-house.co
+100,4,IP100 [-] 101-A ⑤ ticket-land.info,129.121.35.14,http://ticket-land.info/,IP-100,IP100 [-] 101-A ticket-land.info
+101,4,IP100 [-] 101-A ① datsumou-house.info,129.121.36.45,http://datsumou-house.info/,IP-100,IP100 [-] 101-A datsumou-house.info
+102,4,IP100 [-] 101-A ④ supplement-info.asia,129.121.37.253,http://supplement-info.asia/,IP-100,IP100 [-] 101-A supplement-info.asia
+103,4,IP100 [-] 101-A ⑩ kurumano-anzen.co,129.121.38.16,http://kurumano-anzen.co/,IP-100,IP100 [-] 101-A shaken-teritory.com?
+104,4,IP100 [-] 101-A ③ sports-land.xyz,129.121.39.13,http://sports-land.xyz/,IP-100,IP100 [-] 101-A sports-land.xyz
+105,4,IP100 [-] 101-A ② giftgift-prezent.co,129.121.40.18,http://giftgift-prezent.co/,IP-100,IP100 [-] 101-A giftgift-prezent.co
+106,3,IP200 [-] 201-B ③ brand-bagkaitori.info,64.247.177.55,http://brand-bagkaitori.info/,IP-200,IP200 [-] 201-B brand-kaitories.com
+107,3,IP200 [-] 201-B ⑩ saiban-qa.asia,64.247.178.169,http://saiban-qa.asia/,IP-200,IP200 [-] 201-B bengoshi-world.com
+108,3,IP200 [-] 201-B ⑨ school-club.xyz,64.247.179.175,http://school-club.xyz/,IP-200,IP200 [-] 201-B voicetraining-world.com
+109,3,IP200 [-] 201-B ⑧ camera-pasya2.co,64.247.180.144,http://camera-pasya2.co/,IP-200,IP200 [-] 201-B bouhancamera-world.com
+110,3,IP200 [-] 201-B ⑦ honyaku-club.info,64.247.181.170,http://honyaku-club.info/,IP-200,IP200 [-] 201-B honyaku-world.com
+111,3,IP200 [-] 201-B ② highclass-mansion.asia,64.247.182.172,http://highclass-mansion.asia/,IP-200,IP200 [-] 201-B highttower-mansion.com
+112,3,IP200 [-] 201-B ① sports-uniform-love.xyz,64.247.183.154,http://sports-uniform-love.xyz/,IP-200,IP200 [-] 201-B sports-uniform-mania.com
+113,3,IP200 [-] 201-B　⑥ recycle-mania.asia,64.247.184.163,http://recycle-mania.asia/,IP-200,IP200 [-] 201-B recycle-world.com
+114,3,IP200 [-] 201-B ⑤ dentalclub.xyz,64.247.185.156,http://dentalclub.xyz/,IP-200,IP200 [-] 201-B lasik-world.com
+115,26,J [-] 1001-A ⑤ hotel-tantei.xyz,159.174.130.50,http://hotel-tantei.xyz/,J,J
+116,26,J [-] 1001-A ⑥ mudage-bye.asia,159.174.131.174,http://mudage-bye.asia/,J,J
+117,26,J [-] 1001-A ⑦ happymarridge.info,159.174.133.201,http://happymarridge.info/,J,J
+118,26,J [-] 1001-A ⑧ go-restaurant.co,159.174.134.126,http://go-restaurant.co/,J,J
+119,3,IP200 [-] 207-A ⑩ juku-house.co,65.75.173.167,http://juku-house.co/,IP-200,IP200 [-] 207-A juku-village.com
+120,3,IP200 [-] 207-A ⑨ fx-de-enjoy.info,65.75.174.159,http://fx-de-enjoy.info/,IP-200,IP200 [-] 207-A fxfx-village.com
+121,3,IP200 [-] 207-A ① fashoin-love.co,65.75.175.169,http://fashoin-love.co/,IP-200,IP200 [-] 207-A apparel-store.info
+122,3,IP200 [-] 207-A ⑧ biyouclub.asia,65.75.176.62,http://biyouclub.asia/,IP-200,IP200 [-] 207-A arbeit-village.com
+123,3,IP200 [-] 207-A ⑦ antiageing-club.xyz,65.75.177.47,http://antiageing-club.xyz/,IP-200,IP200 [-] 207-A antiageing-village.com?
+124,3,IP200 [-] 207-A ⑥ hanko-club.co,65.75.178.57,http://hanko-club.co/,IP-200,IP200 [-] 207-A inkan-village.com?
+125,3,IP200 [-] 207-A ⑤ print-club.info,65.75.179.57,http://print-club.info/,IP-200,IP200 [-] 207-A insatsu-village.com?
+126,3,IP200 [-] 207-A ④ implant-club.asia,65.75.180.61,http://implant-club.asia/,IP-200,IP200 [-] 207-A implant-village.com
+127,3,IP200 [-] 207-A ③ weddingdress-club.xyz,65.75.181.56,http://weddingdress-club.xyz/,IP-200,IP200 [-] 207-A weddingdress-village.com
+128,3,IP200 [-] 207-A ② cashing-club.co,65.75.182.49,http://cashing-club.co/,IP-200,IP200 [-] 207-A cashing-village.com
+129,26,J [-] 1001-A ⑨ shop-accessories.xyz,159.174.132.68,http://shop-accessories.xyz/,J,J
+130,26,J [-] 1001-A ⑩ buildings-office.asia,159.174.136.9,http://buildings-office.asia/,J,J
+131,0,オールドJ [-] extream ① carproduce-all.com,59.106.192.140,http://carproduce-all.com/,J,J
+132,26,J [-] 201-A ① study-school.info,64.247.177.55,http://study-school.info/,J,J [-] 201A stydy-jukumorimori.com
+133,26,J [-] 201-A ⑨ lamp-osyarehouse.info,64.247.176.173,http://lamp-osyarehouse.info/,J,J
+134,1,アメーバ [美容] 123 ⑤ goodlife-insurance.info,69.56.170.5,http://goodlife-insurance.info/,アメーバ,アメーバ [美容] 123-102 seimeihoken-field.com
+135,1,アメーバ [美容] 123 ④ field-taxman.asia,69.56.212.5,http://field-taxman.asia/,アメーバ,アメーバ [美容] 123-103 zeirishi-field.com
+136,1,アメーバ [美容] 123 ③ ending.xyz,69.93.66.5,http://ending.xyz/,アメーバ,アメーバ [美容] 123-104  soushiki-field.com
+137,1,アメーバ [美容] 123 ① fickleness-search.info,69.56.184.5,http://fickleness-search.info/,アメーバ,アメーバ [美容] 123-106 uwakityousa-square.com
+138,7,アメーバ [結婚] 123 ① hataraku-zeirishi.co,69.93.236.5,http://hataraku-zeirishi.co/,アメーバ,アメーバ [結婚] 123-201 zeiri-danomi.com
+139,7,アメーバ [結婚] 123 ⑤ smoothly-esthetic.co,67.18.80.5,http://smoothly-esthetic.co/,アメーバ,アメーバ [結婚] 123-202 esute-square.com
+140,7,アメーバ [結婚] 123 ④ idol-debut.info,67.18.138.5,http://idol-debut.info/,アメーバ,アメーバ [結婚] 123-203 audition-square.com
+141,7,アメーバ [結婚] 123 ③ ihcooking.asia,67.18.140.5,http://ihcooking.asia/,アメーバ,アメーバ [結婚] 123-204 alldenka-square.com
+142,7,アメーバ [結婚] 123 ② offimove.xyz,67.18.127.5,http://offimove.xyz/,アメーバ,アメーバ [結婚] 123-205 officeiten-square.com
+143,26,J [-] 201-A ⑧ shiwa-byebye.asia,64.247.178.169,http://shiwa-byebye.asia/,J,J
+144,26,J [-] 201-A ⑦ awa2bath.xyz,64.247.179.175,http://awa2bath.xyz/,J,J
+145,26,J [-] 201-A ⑥ viagra-mania.co,64.247.180.144,http://viagra-mania.co/,J,J
+146,26,J [-] 201-A ⑤ haken-job.info,64.247.181.170,http://haken-job.info/,J,J
+147,26,J [-] 201-A ⑩ biyouseikei-land.co,64.247.182.172,http://biyouseikei-land.co/,J,J
+148,26,J [-] 201-A ② fudousan-land.co,64.247.183.154,http://fudousan-land.co/,J,J
+149,26,J [-] 201-A ④ privacymark-club.asia,64.247.184.163,http://privacymark-club.asia/,J,J
+150,26,J [-] 201-A ③ travelling-lover.xyz,64.247.185.156,http://travelling-lover.xyz/,J,J
+151,13,アメーバ [税理] 123 ① yasashii-implant.xyz,70.85.130.27,http://yasashii-implant.xyz/,アメーバ,アメーバ [オフィス] 123-501 rentaloffice-land.com
+152,13,アメーバ [税理] 123 ② banban-copy.asia,69.93.138.2,http://banban-copy.asia/,アメーバ,アメーバ [オフィス] 123-501 rentaloffice-land.com
+153,13,アメーバ [税理] 123 ③ engagement-meeting.info,69.93.149.6,http://engagement-meeting.info/,アメーバ,アメーバ [オフィス] 123-501 rentaloffice-land.com
+154,13,アメーバ [税理] 123 ④ yasuraginosato.co,67.18.88.10,http://yasuraginosato.co/,アメーバ,アメーバ [オフィス] 123-501 rentaloffice-land.com
+155,0,アメーバ [学校] 123 ⑤ hossori-bijin.info,67.18.70.5,http://hossori-bijin.info/,アメーバ,アメーバ [学校] 123-301 diet-field.com
+156,13,アメーバ [税理] 123 ⑤ karimonoservers.xyz,67.18.94.2,http://karimonoservers.xyz/,アメーバ,アメーバ [オフィス] 123-501 rentaloffice-land.com
+157,0,アメーバ [学校] 123 ④ ichigoichie.asia,67.18.7.13,http://ichigoichie.asia/,アメーバ,アメーバ [学校] 123-302 deai-field.com
+158,1,アメーバ [美容] 123 ② water-favorite.co,67.18.81.5,http://water-favorite.co/,アメーバ,アメーバ [美容] 123-105  waterserver-square.com
+159,13,アメーバ [税理] 123 ⑥ kashioffice.asia,69.56.185.7,http://kashioffice.asia/,アメーバ,アメーバ [オフィス] 123-501 rentaloffice-land.com
+160,20,アメーバ [学校] 123 ③ byebye-home.xyz,67.18.68.9,http://byebye-home.xyz/,アメーバ,アメーバ [学校] 123-303 hikkoshi-field.com
+161,2,アメーバ [アダルト] 123 ② kinkaitori-bag.asia,69.93.196.9,http://kinkaitori-bag.asia/,アメーバ,アメーバ [アダルト] 123-1001 kinkaitori-place.com
+162,20,アメーバ [学校] 123 ② ouchi-fudousan.co,70.85.6.3,http://ouchi-fudousan.co/,アメーバ,アメーバ [学校] 123-304 fudousan-field.com
+163,20,アメーバ [学校] 123 ① pretty-pets.info,67.18.124.6,http://pretty-pets.info/,アメーバ,アメーバ [学校] 123-305 pet-field.com
+164,20,アメーバ [学校] 204-A ⑬ haken-no-shigoto.info,65.75.143.174,http://haken-no-shigoto.info/,アメーバ,アメーバ [学校] 123-306 haken-street.com
+165,20,アメーバ [学校] 204-A ⑫ recruit-works.asia,65.75.144.175,http://recruit-works.asia/,アメーバ,アメーバ [学校] 123-306 haken-street.com
+166,20,アメーバ [学校] 204-A ⑮ ibunka-eikaiwa.xyz,65.75.145.173,http://ibunka-eikaiwa.xyz/,アメーバ,アメーバ [学校] 123-306 haken-street.com
+167,20,アメーバ [学校] 204-A ⑧ kashikokunaru.asia,65.75.146.162,http://kashikokunaru.asia/,アメーバ,アメーバ [学校] 123-306 haken-street.com
+168,20,アメーバ [学校] 204-A ⑨ arbeit-time.info,65.75.147.168,http://arbeit-time.info/,アメーバ,アメーバ [学校] 123-306 haken-street.com
+169,20,アメーバ [学校] 204-A ⑭ pimple-juku.co,65.75.148.162,http://pimple-juku.co/,アメーバ,アメーバ
+170,20,アメーバ [学校] 204-A ⑥ english-communication.co,65.75.149.175,http://english-communication.co/,アメーバ,アメーバ [学校] 123-306 haken-street.com
+171,20,アメーバ [学校] 204-A ⑪ koe-gakkou.xyz,65.75.150.172,http://koe-gakkou.xyz/,アメーバ,アメーバ [学校] 123-306 haken-street.com
+172,20,アメーバ [学校] 204-A ⑦ tensyokuno-michi.xyz,65.75.151.173,http://tensyokuno-michi.xyz/,アメーバ,アメーバ [学校] 123-306 haken-street.com
+173,20,アメーバ [学校] 204-A ⑩ rakuchin-school.co,65.75.152.176,http://rakuchin-school.co/,アメーバ,アメーバ [学校] 123-306 haken-street.com
+174,1,アメーバ [医療] 202-A ⑪ dekame-eye.co,64.247.186.171,http://dekame-eye.co/,アメーバ,アメーバ
+175,1,アメーバ [医療] 202-A ⑦ kotsubankyousei-slim.co,64.247.187.153,http://kotsubankyousei-slim.co/,アメーバ,アメーバ
+176,1,アメーバ [医療] 202-A ⑤ koutsuujiko-naosu.asia,64.247.188.159,http://koutsuujiko-naosu.asia/,アメーバ,アメーバ
+177,1,アメーバ [医療] 202-A ⑧ supplement-health.xyz,64.247.189.170,http://supplement-health.xyz/,アメーバ,アメーバ
+178,1,アメーバ [医療] 202-A ⑥ mastsugeekusute-suki.info,64.247.190.150,http://mastsugeekusute-suki.info/,アメーバ,アメーバ
+179,1,アメーバ [医療] 202-A ④ haisha-club.xyz,64.247.191.162,http://haisha-club.xyz/,アメーバ,アメーバ
+180,1,アメーバ [医療] 202-A ⑩ shiroi-ha-implant.info,65.75.128.221,http://shiroi-ha-implant.info/,アメーバ,アメーバ
+181,1,アメーバ [医療] 202-A ⑨ lasik-road.asia,65.75.129.210,http://lasik-road.asia/,アメーバ,アメーバ
+182,2,アメーバ [アダルト] 123 ① kurumakaitori-fan.xyz,69.93.37.9,http://kurumakaitori-fan.xyz/,アメーバ,アメーバ
+183,1,アメーバ [医療] 202-A ③ nikibi-location.co,65.75.130.215,http://nikibi-location.co/,アメーバ,アメーバ
+184,1,アメーバ [医療] 202-A ⑫ seikei-kowakunai.xyz,65.75.131.188,http://seikei-kowakunai.xyz/,アメーバ,アメーバ
+185,12,アメーバ [オフィス] 123 ⑤ kiss-marry.asia,69.93.154.30,http://kiss-marry.asia/,アメーバ,アメーバ [オフィス] 123-401 konkatsu-land.com
+186,12,アメーバ [オフィス] 123 ④ gekimuzu-saimu.xyz,70.85.18.13,http://gekimuzu-saimu.xyz/,アメーバ,アメーバ [オフィス] 123-401 konkatsu-land.com
+187,12,アメーバ [オフィス] 123 ③ dokidokinight-date.co,69.93.82.27,http://dokidokinight-date.co/,アメーバ,アメーバ [オフィス] 123-401 konkatsu-land.com
+188,12,アメーバ [オフィス] 123 ② cute-e-fashion.info,69.56.238.7,http://cute-e-fashion.info/,アメーバ,アメーバ [オフィス] 123-401 konkatsu-land.com
+189,12,アメーバ [オフィス] 123 ① kashiteyo-cars.asia,67.18.39.8,http://kashiteyo-cars.asia/,アメーバ,アメーバ [オフィス] 123-401 konkatsu-land.com
+190,2,アメーバ [アダルト] 1301-A ⑫ kyaba-night.info,129.121.79.183,http://kyaba-night.info/,アメーバ,アメーバ
+191,2,アメーバ [アダルト] 1301-A ⑪ fuzoku-night.asia,129.121.235.47,http://fuzoku-night.asia/,アメーバ,アメーバ
+192,2,アメーバ [アダルト] 1301-A ⑩ soap-night.xyz,149.47.2.137,http://soap-night.xyz/,アメーバ,アメーバ
+193,2,アメーバ [アダルト] 1301-A ⑨ fuzokudaisuki.co,149.47.38.145,http://fuzokudaisuki.co/,アメーバ,アメーバ
+194,2,アメーバ [アダルト] 1301-A ⑧ fuzoku-research.xyz,149.47.75.138,http://fuzoku-research.xyz/,アメーバ,アメーバ
+195,2,アメーバ [アダルト] 1301-A ⑦ fuzoku-gogo.co,149.47.98.149,http://fuzoku-gogo.co/,アメーバ,アメーバ
+196,2,アメーバ [アダルト] 1301-A ⑥ sukisuki-soap.info,149.47.112.140,http://sukisuki-soap.info/,アメーバ,アメーバ
+197,2,アメーバ [アダルト] 1301-A ⑤ sukisuki-kyaba.asia,149.47.128.130,http://sukisuki-kyaba.asia/,アメーバ,アメーバ
+198,2,アメーバ [アダルト] 1301-A ④ sukisuki-fuzok.info,149.47.144.157,http://sukisuki-fuzok.info/,アメーバ,アメーバ
+199,2,アメーバ [アダルト] 1301-A ③ hoteheru-night.co,149.47.161.146,http://hoteheru-night.co/,アメーバ,アメーバ
+200,1,アメーバ [医療] 123 ② kyuujin-house.info,70.87.22.14,http://kyuujin-house.info/,アメーバ,アメーバ [医療] 123-901 kyuujin-place.com
+201,1,アメーバ [医療] 123 ① dental-fan.asia,69.93.65.4,http://dental-fan.asia/,アメーバ,アメーバ
+202,1,アメJ [美容] 203-A ① sekken-way.com,65.75.132.203,http://sekken-way.com/,アメJ,アメJ
+203,24,アメーバ [アパレル] 123 kyaba-gogo.xyz,67.18.1.112,http://kyaba-gogo.xyz/,アメーバ,アメーバ
+204,25,アメーバ [家庭] 123 ⑥ i-omajinai.info,69.93.115.2,http://i-omajinai.info/,アメーバ,アメーバ
+205,25,アメーバ [家庭] 123 ① locoloco-bag.asia,69.93.106.2,http://locoloco-bag.asia/,アメーバ,アメーバ
+206,23,アメーバ [不動産] 123 ① tantei-park.com,69.56.236.2,http://tantei-park.com/,アメーバ,アメーバ [オフィス] 123-601 royaljelly-land.com
+207,25,アメーバ [家庭] 123 ② nikibikibi.info,69.56.224.2,http://nikibikibi.info/,アメーバ,アメーバ
+208,23,アメーバ [不動産] 123 ④ old-carpink.info,67.18.62.2,http://old-carpink.info/,アメーバ,アメーバ
+209,25,アメーバ [家庭] 123 ③ dokkiridoress.co,69.56.216.2,http://dokkiridoress.co/,アメーバ,アメーバ
+210,23,アメーバ [不動産] 123 ③ ouchi-lease.asia,69.41.242.29,http://ouchi-lease.asia/,アメーバ,アメーバ
+211,23,アメーバ [不動産] 123 ② home-de-tuuhan.xyz,67.18.66.2,http://home-de-tuuhan.xyz/,アメーバ,アメーバ
+212,25,アメーバ [家庭] 123 ④ tel-charges.xyz,69.56.159.2,http://tel-charges.xyz/,アメーバ,アメーバ
+213,25,アメーバ [家庭] 123 ⑤ fortune-telephone.asia,69.56.142.2,http://fortune-telephone.asia/,アメーバ,アメーバ [オフィス] 123-601 royaljelly-land.com
+214,18,X-Satelite [現近化] genkin-creditcard.com,198.91.86.32,http://genkin-creditcard.com/,X-Satelite,[X-Satelite] genkin-creditcard.com
+215,18,X-Satelite [現近化] genkinkacreditcard.com,198.91.86.33,http://genkinkacreditcard.com/,X-Satelite,[X-Satelite] genkinkacreditcard.com
+216,19,X-Satelite [SEO] seochecky.com,198.91.86.100,http://seochecky.com/,X-Satelite,[X-Satelite] seochecky.com
+217,19,X-Satelite [SEO] penaltyinfo.com,198.91.86.34,http://penaltyinfo.com/,X-Satelite,[X-Satelite] penaltyinfo.com
+218,6,X-Satelite [タクシー] takuxi.com,198.91.86.35,http://takuxi.com/,X-Satelite,[X-Satelite] takuxi.com
+219,5,X-Satelite [求人] recruit-works.com,198.91.86.36,http://recruit-works.com/,X-Satelite,[X-Satelite] recruit-works.com
+220,5,X-Satelite [治療家] chiryoka.net,198.91.86.37,http://chiryoka.net/,X-Satelite,[X-Satelite] chiryoka.net
+221,17,X-Satelite [介護] kaigo-heart.com,198.91.86.38,http://kaigo-heart.com/,X-Satelite,[X-Satelite] kaigo-heart.com
+222,16,X-Satelite [美容] cosme-no1.com,198.91.86.39,http://cosme-no1.com/,X-Satelite,[X-Satelite] cosme-no1.com
+223,1,X-Satelite [美容] e-biyou.net,198.91.86.40,http://e-biyou.net/,X-Satelite,[X-Satelite] e-biyou.net
+224,15,X-Satelite [グルメ] tabelogy.com,198.91.86.101,http://tabelogy.com/,X-Satelite,[X-Satelite] tabelogy.com
+225,14,X-Satelite [清掃] clean-no1.com,198.91.86.29,http://clean-no1.com/,X-Satelite,[X-Satelite] clean-no1.com
+226,13,X-Satelite [グルメ] zeirishi-shokainet.com,198.91.86.30,http://zeirishi-shokainet.com/,X-Satelite,[X-Satelite] zeirishi-shokainet.com
+227,12,X-Satelite [グルメ] office-store.net,198.91.86.31,http://office-store.net/,X-Satelite,[X-Satelite] office-store.net
+228,11,X-Satelite [風俗] e-fuzoku.com,198.91.88.251,http://e-fuzoku.com/,X-Satelite,[X-Satelite] e-fuzoku.com
+229,10,X-Satelite [外壁] gaiheki-painter.com,198.91.88.252,http://gaiheki-painter.com/,X-Satelite,[X-Satelite] gaiheki-painter.com
+230,9,X-Satelite [ギフト] bestgiftnavi.com,198.91.92.33,http://bestgiftnavi.com/,X-Satelite,[X-Satelite] bestgiftnavi.com
+231,8,X-Satelite [データ] fukugen-data.com,198.91.92.121,http://fukugen-data.com/,X-Satelite,[X-Satelite] fukugen-data.com
+232,7,X-Satelite [結婚] wedding-nav.com,198.91.92.140,http://wedding-nav.com/,X-Satelite,[X-Satelite] wedding-nav.com
+233,6,X-Satelite [自動車] kuruma-network.com,198.91.92.169,http://kuruma-network.com/,X-Satelite,[X-Satelite] kuruma-network.com
+234,0,オールドJ [-]  extream ② club-hanabi.com,59.106.192.140,http://club-hanabi.com/,J,J

@@ -1,0 +1,1 @@
+<?php $this->Layout->csv_output($data); ?>

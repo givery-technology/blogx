@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+/* ========BASIC======== */
+body {
+   background:white;
+   margin:0;
+   font-size:12px;
+   font-family:Verdana,Osaka,'MS UI Gothic';
+   color:#333;
+   line-height:150%;
+   letter-spacing:0.05em;
+
+/* スクロールバーの設定 */
+   scrollbar-face-color:#ffffff;
+   scrollbar-track-color:#ffffff;
+   scrollbar-arrow-color:#ff9999;
+   scrollbar-3dlight-color:#ffffff;
+   scrollbar-highlight-color:#ffffff;
+   scrollbar-shadow-color:#ffffff;
+   scrollbar-darkshadow-color:#ffffff;
+   overflow-y:auto;
+}
+
+a {
+   color:#FF6060;
+   text-decoration:none;
+}
+
+a:hover {
+   color:#FFB2B2;
+   cursor:e-resize;
+}
+
+image {
+   border:0;
+}
+
+br {
+   letter-spacing:normal;
+}
+
+/* テーブルを囲んでいる線の設定 */
+.line {
+   border:1px #ff9999 solid;
+}
+
+/* タイトル */
+h1 {
+   font-size:16px;
+   color:#339999;
+   font-weight:bold;
+   text-align:center;
+}
+
+/* ========TEMPLATE FRAMEWORK======== */
+#wrapper {
+
+   width:850px;
+   overflow:hidden;
+margin: 45px 0px 0px 485px;
+   position:absolute;
+#   left:50%;
+   text-align:left;
+}
+
+#menu {
+   width:150px;
+   height:370px;
+   float:left;
+}
+
+#contentsWrap {
+   overflow:hidden;
+}
+
+#contents {
+
+width: 546px;
+   float:right;
+#	height: 750px;
+   overflow:auto;
+   padding:10px 130px 10px 10px;
+}
+
+#footer {
+   clear:both;
+}
+
+/* ========MENU CUSTOMIZE======== */
+#menu {
+ #  background-image:url("https://www.sem-check.com/blogx/templates/ameJ-303A/images/bg1.gif");
+   vertical-align:top;
+   line-height:250%;
+}
+
+#menu ul {
+   list-style:none;
+   margin:0;
+   padding-left:20px;
+}
+
+/* ========CONTENTS CUSTOMIZE======== */
+#contentsWrap {
+   background: url("https://www.sem-check.com/blogx/templates/ameJ-303A/images/akabeko.jpg") 96% 100% no-repeat;
+}
+
+*html #contents {
+/*IE6用背景画像指定 */
+   background: url("https://www.sem-check.com/blogx/templates/ameJ-303A/images/akabeko.jpg") 100% 100% no-repeat fixed;
+}
+
+#contents h2 {
+#   background:url("../images/yeah.gif") no-repeat;
+#   padding:3px 3px 3px 55px;
+   border-bottom:1px #ff9999 dotted;
+   font-size:2em;
+   font-weight:normal;
+   line-height:33px;
+   margin:0;
+}
+
+#contents p {
+   margin:0;
+   padding:0.5em 0 2em 0;
+}
+
+#contents strong {
+   color:red;
+   font-weight:normal;
+   border-bottom:1px dashed #999;
+}
+
+/* ========FOOTER CUSTOMIZE======== */
+#footer {
+   font-size:0.9em;
+   text-align:right;
+}
+
+/* ========ENTERPAGE CUSTOMIZE======== */
+#enter {
+   width:400px;
+   overflow:hidden;
+   margin:-150px 0 0 -200px;
+   position:absolute;
+   top:50%;
+   left:50%;
+   text-align:left;
+}
+
+#enterText {
+   width:260px;
+   float:left;
+   vertical-align:bottom;
+   text-align:right;
+   margin-top:40px;
+}
+
+#enterPhoto {
+   width:130px;
+   float:right;
+   vertical-align:bottom;
+}

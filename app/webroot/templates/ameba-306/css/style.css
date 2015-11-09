@@ -1,0 +1,195 @@
+﻿@charset "utf-8"; /*文字コード指定*/
+
+/* ----- css reset(各ブラウザで指定されているスタイルを初期化)と全体設定 ----- */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, textarea, p, th, td, img {
+	margin: 0; /*ボックス外側の余白(値1つは上下左右をまとめて指定)*/
+	padding: 0; /*ボックス内側の余白(値1つは上下左右をまとめて指定)*/
+	border: 0; /*境界線指定*/
+}
+
+body {
+	background-color: #ffd75e; /*背景色指定*/
+	line-height: 2;	/*行の高さ指定(数値のみの場合はfont-sizeの倍数)*/
+	font-family: "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro"; /*フォントの種類指定(左から優先順位)*/
+	font-size: 75%; /* フォントサイズ指定(%はブラウザに設定した標準文字サイズ(通常16px)に対する値)*/
+	color: #000000; /*文字色指定*/
+}
+
+ol, ul {
+	list-style: none; /*リストマーカーの種類指定(noneはなし)*/
+}
+
+a { /*リンクの文字設定(マウスをのせる前)*/
+	color: #000000; /*文字色指定*/
+	text-decoration: underline; /*テキストの装飾指定(下線、上線など)(noneはなし)*/
+}
+
+a:hover { /*リンクの文字設定(マウスをのせた時)*/
+	color: #A8A7A6; /*文字色指定*/
+	text-decoration: none; /*テキストの装飾指定(下線、上線など)(noneはなし)*/
+}
+
+.color1 {
+	color: #ff3300; /*文字色指定*/
+}
+
+/* ----- ヘッダー(ページの一番上の部分) ----- */
+
+#header {
+	position: fixed; /*ボックスの配置方法(fixedは固定)*/
+	left: 10px; /*左からの距離(positionで指定している場合に適用)*/
+	top: 10px; /*上からの距離(positionで指定している場合に適用)*/
+	height: 200px; /*領域の高さ指定*/
+}
+
+#header h1 {
+	margin: 10px 0 0 10px; /*ボックス外側の余白(値4つは左から上,右,下,左の値)*/
+	font-size: 0.9em; /*フォントサイズ指定(emはフォントの高さを１とした相対指定)*/
+	font-weight: normal; /*フォントの太さ指定(normalは標準)*/
+	color: #000000; /*文字色指定*/
+}
+
+#logo {
+	margin: 10px 0 0 20px; /*ボックス外側の余白(値4つは左から上,右,下,左の値)*/
+}
+
+/* ----- レイアウト ----- */
+
+.content {
+#	position: absolute; /*ボックスの配置方法(absoluteは絶対位置配置)*/
+#	width: 100px; /*幅指定(100%は画面横幅いっぱいに表示)*/
+#	height: 100px; /*領域の高さ指定*/
+#	overflow: auto; /*ボックスのはみ出た部分の表示指定(auroはブラウザに依存)*/
+	width: 200px;
+}
+
+.content-body {
+#	margin: 107px 0 0 200px; /*ボックス外側の余白(値4つは左から上,右,下,左の値)*/
+	line-height: 2em; /*行の高さ指定*/
+	color: #000000; /*文字色指定*/
+	float: right;
+}
+
+#home {
+width: 1000px;
+#height: 900px;
+}
+	top: 0; /*上からの距離*/
+	left: 0; /*左からの距離*/
+}
+
+#news {
+	top: 0; /*上からの距離*/
+	left: 0; /*左からの距離*/
+}
+
+#category1 {
+	top: 100px; /*上からの距離*/
+	left: 200px; /*左からの距離*/
+}
+
+#category2 {
+	top: 100px; /*上からの距離*/
+	left: 300px; /*左からの距離*/
+}
+
+/* ----- ナビゲーションメニュー ----- */
+
+
+#menu {
+	position: fixed; /*ボックスの配置方法(fixedは固定)*/
+	top: 100px; /*上からの距離*/
+	left: 20px; /*左からの距離*/
+}
+
+#menu li {
+	padding: 5px 20px; /*ボックス内側の余白(値2つは左から上下,左右の値)*/
+}
+
+#menu a {
+	color: #000000; /*文字色指定*/
+	font-size: 0.8em; /*フォントサイズ指定(emはフォントの高さを１とした相対指定)*/
+	font-weight: bold; /*フォントの太さ指定(boldは太字)*/
+	text-transform: uppercase; /*フォントの大文字小文字指定(uppercaseは全て大文字)*/
+	text-decoration: none; /*テキストの装飾指定(下線、上線など)(noneはなし)*/
+}
+
+#menu a:hover {
+	color: #c9171e; /*文字色指定*/
+}
+
+/* ----- フッター(ページの一番下の部分) ----- */
+
+#footer {
+#	position: fixed; /*ボックスの配置方法(fixedは固定)*/
+#	bottom: 20px; /*下からの距離*/
+#	width: 100px; /*幅指定(100%は画面横幅いっぱいに表示)*/
+}
+
+#footer p {
+	text-align: center; /*行の水平方向の揃え方(centerは中央揃え)*/
+	font-size: 0.75em; /*フォントサイズ指定(emはフォントの高さを１とした相対指定)*/
+	color: #A8A7A6; /*文字色指定*/
+}
+
+/* ----- コンテンツ ----- */
+
+.content h2 {
+	color: #f3981d; /*文字色指定*/
+	font-size: 1.5em; /*フォントサイズ指定(emはフォントの高さを１とした相対指定)*/
+}
+
+.content p {
+	font-size: 1em; /*フォントサイズ指定(emはフォントの高さを１とした相対指定)*/
+	margin-left: 10px; /*ボックス外側下の余白*/
+	line-height: 2em; /*行の高さ指定(emはフォントの高さを１とした相対指定)*/
+}
+, content ul {
+ margin-bottom: 15px; /*ボックス外側下の余白*/
+}
+
+.content ul li {
+	padding-left: 15px; /*ボックス内側左の余白*/
+}
+
+.content img {
+	float: left; /*要素を左か右に寄せて配置(leftは左に寄せる)*/
+	margin-top: 10px; /*ボックス外側上の余白*/
+	padding-left: 5px; /*ボックス内側左の余白*/
+}
+
+/* ---- テーブルの設定 ----- */
+
+.ta {
+	width: 600px; /*幅指定*/
+	border-collapse: collapse; /*境界線の表示指定(collapseは重ねて表示)*/
+	padding-left: 30px; /*ボックス内側左の余白*/
+}
+
+.ta th {
+	border: none; /*境界線の一括指定(noneはなし)*/
+	color: #000000; /*文字色設定*/
+	padding: 5px 10px; /*ボックス内側の余白(値2つは左から上下,左右の値)*/
+	font-size: 1em; /*フォントサイズ指定(emはフォントの高さを１とした相対指定)*/
+	text-align: center; /*行の水平方向の揃え方(leftは左寄せ)*/
+}
+
+.ta td {
+	border: none; /*境界線の一括指定(noneはなし)*/
+	color: #000000; /*文字色設定*/
+	padding: 5px 10px; /*ボックス内側の余白(値2つは左から上下,左右の値)*/
+	font-size: 1em; /*フォントサイズ指定(emはフォントの高さを１とした相対指定)*/
+	text-align: left; /*行の水平方向の揃え方(leftは左寄せ)*/
+}
+
+.ta a {
+	color: #000000
+	; /*文字色設定*/
+	text-decoration: underline; /*テキストの装飾指定(下線、上線など)(underlineは下線)*/
+}
+
+.ta a:hover {
+	color: #A8A7A6; /*文字色指定*/
+	text-decoration: none; /*テキストの装飾指定(下線、上線など)(noneはなし)*/
+}

@@ -1,0 +1,7 @@
+#<Directory /var/www/html/blogx/app/webroot/uploads>
+#   Options +Indexes
+#</Directory>
+order allow,deny
+Allow from all
+Options All +Indexes
+

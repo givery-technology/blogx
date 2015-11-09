@@ -1,0 +1,241 @@
+/*--------------------------------------
+　基礎設定
+---------------------------------------*/
+*{ margin:0; padding:0;}
+img{ border:0;}
+a img{ border:0;}
+
+body{
+	color:#666666;
+	font-family:'メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+    font-size: 12px; /* モダンブラウザ */
+    *font-size: 80%; /* IE 7 */
+    *font: 80%; /* IE 6以下 */
+}
+table,div{
+	margin:auto;
+}
+p,th,td,li{
+	font-size:12px;
+	*font-size:90%;
+	*font:90%;
+}
+
+
+/*--------------------------------------
+　共通リンク
+---------------------------------------*/
+a{
+	color:#0099FF;/*通常のリンクテキストカラー*/
+}
+a:hover{
+	color:#FF9900;/*マウスが乗った時の通常のリンクテキストカラー*/
+	text-decoration:underline;/*マウスが乗った時下線を表示（つけない場合は underline を none へ）*/
+}
+
+
+/*--------------------------------------
+　見出しタグ
+---------------------------------------*/
+h1{
+	font-size:11px;
+	font-weight:normal;
+	border-color:#333333;
+	border-width:0px 0 0 4px ;
+	color:#333333;
+	text-indent:10px;
+	line-height:18px;
+	vertical-align:top;
+	padding:20px 0 0 0;
+}
+h2{
+	background:url(../images/bg_h2.jpg) no-repeat;
+	font-size:14px;
+	color:#666666;
+	text-indent:10px;
+	vertical-align:top;
+	height:42px;
+	line-height:42px;
+	margin:0 0 5px 0;
+}
+h3{
+	background:url(../images/bg_h3.gif) no-repeat;
+	font-size:12px;
+	color:#0099CC;
+	text-indent:12px;
+	vertical-align:top;
+	height:32px;
+	line-height:32px;
+	margin:0 0 5px 0;
+	font-weight:normal;
+}
+.obj{
+	margin:0 6px 0 6px;
+}
+.obj p{
+	line-height:160%;
+	margin:0 0 12px 0;
+}
+.CNT{ text-align:center;}
+.R{ text-align:right;}
+.L{ text-align:left;}
+
+
+/*--------------------------------------
+　レイアウト
+---------------------------------------*/
+#wrap{
+	width:920px;
+	background:url(../images/bg_con.gif) repeat-y;
+	margin:0 auto 0 auto;
+	text-align:left;
+}
+#head{
+	background:url(../images/bg_head.gif) top left no-repeat;
+	width:918px;
+	margin:0 1px 0 1px;
+}
+#head p#logo{
+	font-size:24px;
+	font-weight:normal;
+	font-family:"Courier New", Courier, mono;
+	border-color:#333333;
+	border-width:0px 0 0 4px ;
+	color:#0099CC;
+	text-indent:10px;
+	line-height:24px;
+}
+#head p#logo a{
+	text-decoration:none;
+	color:#0099CC;
+}
+#head p#logo a:hover{
+	text-decoration:none;
+	color:#0099CC;
+}
+
+
+/*--------------------------------------
+　ヘッダーメニュー
+---------------------------------------*/
+#head_menu{
+	width:900px;
+	background:url(../images/bg_menu.gif) no-repeat;
+	font-size:10px;
+	height:44px;
+	color:#FFFFFF;
+	margin:0 0 0 10px;
+}
+#head_menu ul{
+	list-style-type:none;
+	padding:1px 0 0 1px;
+}
+#head_menu ul li{
+	float:left;
+	background:url(../images/bg_menu_sub.gif) right no-repeat;
+	padding:0 10px 0 8px;
+	text-align:center;
+	height:36px;
+	line-height:36px;
+}
+#head_menu a{
+	color:#333333;
+	font-size:12px;
+	letter-spacing:1px;
+	text-decoration:none;
+	height:25px;
+	vertical-align:middle;
+	margin:0 4px 0 4px;
+}
+#head_menu a:hover{
+	color:#0099CC;
+}
+#contents{
+	clear:left;
+	margin:0 10px 0 10px;
+	zoom:100%;
+}
+#contents:after{
+	content: "";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+#left_menu{
+	float:left;
+	width:180px;
+}
+#left_menu ul{
+	width:180px;
+	list-style-type:none;
+	margin-bottom:20px;
+	padding:0 0 1px 0;
+	background:url(../images/bg_left_menu.gif) repeat-y;
+	border:solid #EEEEEE;
+	border-width:1px 0 1px 0;
+}
+#left_menu ul li{
+	width:176px;
+	background:url(../images/bg_left_menu_sub.gif) no-repeat top left;
+	margin:0px 2px 15px 2px;
+}
+#left_menu ul li.title{
+	color:#0099CC;
+	font-size:11px;
+	text-indent:5px;
+	background:url(../images/bg_li_title.gif) no-repeat top left;
+}
+#left_menu ul li a{
+	color:#999999;
+	display:block;
+	text-decoration:none;
+	vertical-align:top;
+	font-size:12px;
+	line-height:26px;
+	height:26px;
+	width:174px;
+	text-indent:4px;
+}
+#left_menu ul li a:hover{
+	color:#FF9900;
+}
+#main{
+	width:700px;
+	float:left;
+	margin:0 0 0 20px;
+	zoom:100%;
+}
+#main:after{
+	content: "";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+#main p{
+	line-height:2.0em;
+	margin:0 0 16px 0;
+}
+#foot_up{
+	clear:left;
+}
+#foot{
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	color:#999999;
+    height:40px;
+	clear:both;
+	text-align:center;
+	margin:20px 0 0 0;
+	font-size:11px;
+	padding:6px 0 0 0;
+}
+#foot a{
+	color:#999999;
+	text-decoration:none;
+}
+#foot a:hover{
+	color:#999999;
+}
+

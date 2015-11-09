@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+body{
+	background: url(../images/bg.gif) repeat-y top center;
+}
+
+div#wrapper{
+	width: 940px;
+	margin: 0 auto;
+	text-align: left;
+	padding: 50px 10px 0;
+	line-height: 1.8;
+}
+
+div#leftContents{
+	width: 200px;
+	float: left;
+}
+
+div#mainContents{
+	width: 700px;
+	display: inline;
+	float: right;
+}
+
+div#leftContents h1{
+	font-size: 22px;
+	text-align: center;
+#	margin-bottom: 30px;
+}
+
+div#leftContents ul#gNavi{
+	border: 1px solid #ccc;
+	border-radius: 7px;		/* CSS3草案 */
+	-webkit-border-radius: 7px;	/* Safari,Google Chrome用 */
+	-moz-border-radius: 7px;	/* Firefox用 */
+	margin-bottom: 30px;
+}
+
+div#leftContents ul#gNavi li{
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #fff;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+div#leftContents ul#gNavi li img{
+	vertical-align: bottom;
+}
+
+div#leftContents ul#gNavi li a{
+	color: #666;
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+ 	padding: 14px 0;
+}
+
+div#leftContents ul#gNavi li a:hover{
+	background: #E6F0F9;
+}
+
+div#leftContents ul#gNavi li.firstItem{
+	border: none;
+	padding-top: 0;
+	border-bottom: 1px solid #fff;
+}
+
+
+div#leftContents ul.bannerSet{}
+div#leftContents ul.bannerSet li{
+	display: block;
+	margin-bottom: 8px;
+}
+
+div#footer{
+	clear: both;
+	color: #333;
+	margin-top: 45px;
+	padding: 30px 0;
+	border-top: 1px solid #efefef;
+}
+div#footer p#copyright{
+	padding: 8px 0;
+	text-align: center;
+}

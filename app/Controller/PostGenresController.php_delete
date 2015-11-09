@@ -1,0 +1,104 @@
+<?php
+App::uses('AppController', 'Controller');
+/**
+ * PostGenres Controller
+ *
+ * @property PostGenre $PostGenre
+ * @property PaginatorComponent $Paginator
+ * @property SessionComponent $Session
+ */
+class PostGenresController extends AppController {
+
+/**
+ * Components
+ *
+ * @var array
+ */
+	public $components = array('Paginator', 'Session');
+
+/**
+ * index method
+ *
+ * @return void
+ */
+	public function index() {
+		$this->PostGenre->recursive = 0;
+		$this->set('postGenres', $this->Paginator->paginate());
+	}
+
+/**
+ * view method
+ *
+ * @throws NotFoundException
+ * @param string $id
+ * @return void
+ */
+	public function view($id = null) {
+		if (!$this->PostGenre->exists($id)) {
+			throw new NotFoundException(__('Invalid post genre'));
+		}
+		$options = array('conditions' => array('PostGenre.' . $this->PostGenre->primaryKey => $id));
+		$this->set('postGenre', $this->PostGenre->find('first', $options));
+	}
+
+/**
+ * add method
+ *
+ * @return void
+ */
+	public function add() {
+		if ($this->request->is('post')) {
+			$this->PostGenre->create();
+			if ($this->PostGenre->save($this->request->data)) {
+				$this->Session->setFlash(__('The post genre has been saved.'));
+				return $this->redirect(array('action' => 'index'));
+			} else {
+				$this->Session->setFlash(__('The post genre could not be saved. Please, try again.'));
+			}
+		}
+	}
+
+/**
+ * edit method
+ *
+ * @throws NotFoundException
+ * @param string $id
+ * @return void
+ */
+	public function edit($id = null) {
+		if (!$this->PostGenre->exists($id)) {
+			throw new NotFoundException(__('Invalid post genre'));
+		}
+		if ($this->request->is(array('post', 'put'))) {
+			if ($this->PostGenre->save($this->request->data)) {
+				$this->Session->setFlash(__('The post genre has been saved.'));
+				return $this->redirect(array('action' => 'index'));
+			} else {
+				$this->Session->setFlash(__('The post genre could not be saved. Please, try again.'));
+			}
+		} else {
+			$options = array('conditions' => array('PostGenre.' . $this->PostGenre->primaryKey => $id));
+			$this->request->data = $this->PostGenre->find('first', $options);
+		}
+	}
+
+/**
+ * delete method
+ *
+ * @throws NotFoundException
+ * @param string $id
+ * @return void
+ */
+	public function delete($id = null) {
+		$this->PostGenre->id = $id;
+		if (!$this->PostGenre->exists()) {
+			throw new NotFoundException(__('Invalid post genre'));
+		}
+		$this->request->onlyAllow('post', 'delete');
+		if ($this->PostGenre->delete()) {
+			$this->Session->setFlash(__('The post genre has been deleted.'));
+		} else {
+			$this->Session->setFlash(__('The post genre could not be deleted. Please, try again.'));
+		}
+		return $this->redirect(array('action' => 'index'));
+	}}

@@ -1,0 +1,592 @@
+
+* {
+    font-family: "verdana","helvetica","osaka","£Í£Ó £Ð¥´¥·¥Ã¥¯",sans-serif;
+}
+textarea {
+    font-family: "¥Ò¥é¥®¥ÎÌÀÄ« Pro W6","Osaka","£Í£Ó £Ð¥´¥·¥Ã¥¯","trebuchet MS","trebuchet","verdana","arial","sans-serif";
+}
+body {
+    background: none repeat scroll 0 0 #EFEFEF;
+    color: #000000;
+    margin: 0;
+}
+form {
+    margin: 0;
+    padding: 0;
+}
+table.form {
+    margin: 25px 0 0 13px;
+}
+img {
+    border: medium none;
+}
+ul.rss {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+ul.rss li {
+    border-right: 1px solid #999999;
+    display: inline;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    margin-right: 0.3em;
+    padding-left: 0.2em;
+    padding-right: 0.5em;
+}
+ul.rss a:link {
+    color: #333333;
+    text-decoration: none;
+}
+ul.rss a:visited {
+    color: #333333;
+    text-decoration: none;
+}
+ul.rss a:hover {
+    color: #999999;
+    text-decoration: none;
+}
+ul.rss a:active {
+    color: #333333;
+    text-decoration: none;
+}
+a {
+    color: #001F79;
+    text-decoration: underline;
+}
+a:link {
+    color: #001F79;
+    text-decoration: underline;
+}
+a:visited {
+    text-decoration: underline;
+}
+a:active {
+}
+a:hover {
+    color: #001F79;
+    text-decoration: none;
+}
+a.acalendar {
+    color: #001F79;
+    text-decoration: underline;
+}
+a.acalendar:link {
+    color: #001F79;
+    text-decoration: underline;
+}
+a.acalendar:visited {
+    text-decoration: underline;
+}
+a.acalendar:active {
+}
+a.acalendar:hover {
+    color: #001F79;
+    text-decoration: none;
+}
+a.acontinues {
+    color: #001F79;
+    text-decoration: underline;
+}
+a.acontinues:link {
+    color: #001F79;
+    text-decoration: underline;
+}
+a.acontinues:visited {
+    text-decoration: underline;
+}
+a.acontinues:active {
+}
+a.acontinues:hover {
+    color: #001F79;
+    text-decoration: none;
+}
+a.amenu {
+    color: #001F79;
+    text-decoration: underline;
+}
+a.amenu:link {
+    color: #001F79;
+    text-decoration: underline;
+}
+a.amenu:visited {
+    text-decoration: underline;
+}
+a.amenu:active {
+}
+a.amenu:hover {
+    color: #001F79;
+    text-decoration: none;
+}
+#container {
+    background-color: #FFFFFF;
+    border-color: #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-width: 1px;
+    font-size: 12px;
+    margin: 0 auto;
+    text-align: left;
+    width: 740px;
+}
+#banner, #subbanner {
+    background: url("http://www.junglekouen.com/_img/ori1/head.jpg") repeat scroll left center #DBD8BC;
+    height: 219px;
+    padding: 0;
+}
+#banner a {
+    color: #DBD8BC;
+    text-decoration: none;
+}
+#banner a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#banner a:visited {
+    text-decoration: none;
+}
+#banner a:active {
+}
+#banner a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+#subbanner a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#subbanner a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#subbanner a:visited {
+    text-decoration: none;
+}
+#subbanner a:active {
+}
+#subbanner a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+.blogtitle {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 20px 0 0 10px;
+    text-align: left;
+}
+.description {
+    color: #333333;
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding: 4px 0 0 35px;
+    text-align: left;
+}
+#content {
+    float: right;
+    width: 543px;
+}
+#links {
+    float: left;
+    margin: 0;
+    overflow: hidden;
+    padding: 20px 0 0 10px;
+    text-align: left;
+    width: 185px;
+}
+#footer {
+    clear: both;
+}
+#copyright {
+    background: none repeat scroll center bottom #DBD8BD;
+    color: #666666;
+    font-size: 10px;
+    font-weight: bold;
+    height: 16px;
+    line-height: 16px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+.blog {
+    margin: 20px 10px 20px 15px;
+}
+.date {
+    background: none repeat scroll 1px 1px #AD5C49;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    color: #DBD8BD;
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding: 5px 0 5px 5px;
+}
+.blogbody {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    margin: 0 0 10px;
+    padding: 8px;
+}
+.title {
+    background-image: url("http://www.junglekouen.com/_img/ori1/ori1-title.gif");
+    background-position: left center;
+    background-repeat: no-repeat;
+    color: #AD5C49;
+    font-size: 12px;
+    font-weight: bold;
+    height: 10px;
+    padding-left: 16px;
+}
+.main {
+    color: #000000;
+    font-size: 12px;
+    line-height: 135%;
+    margin: 16px 10px 15px 0;
+    overflow: auto;
+    width: 490px;
+}
+.main img {
+    margin: 0 5px 5px;
+}
+.main-continues {
+    font-size: 10px;
+}
+.posted {
+    color: #000000;
+    font-size: 10px;
+    margin: 0 0 25px;
+    text-align: right;
+}
+a.aposted {
+    color: #001F79;
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+a.aposted:link {
+    color: #001F79;
+    font-weight: bold;
+    text-decoration: underline;
+}
+a.aposted:visited {
+    font-weight: bold;
+    text-decoration: underline;
+}
+a.aposted:active {
+    font-weight: bold;
+    text-decoration: none;
+}
+a.aposted:hover {
+    color: #001F79;
+    font-weight: bold;
+    text-decoration: none;
+}
+.menu {
+    color: #000000;
+    font-size: 12px;
+    text-align: right;
+}
+.comments-head {
+    color: #AD5C49;
+    font-size: 12px;
+    font-weight: bold;
+    height: 10px;
+    padding: 0;
+}
+.comments-body {
+    font-size: 12px;
+    line-height: 135%;
+    margin: 20px 0 15px 13px;
+}
+.comments-post {
+    color: #000000;
+    font-size: 12px;
+    margin: 0 0 25px;
+    text-align: right;
+}
+.trackback-url {
+    color: #691815;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 20px 0 15px 13px;
+}
+.trackback-body {
+    font-size: 12px;
+    line-height: 135%;
+    margin: 20px 0 15px 13px;
+}
+.trackback-post {
+    color: #000000;
+    font-size: 12px;
+    margin: 0 0 25px;
+    text-align: right;
+}
+a.atrackback-post {
+    color: #001F79;
+    font-weight: bold;
+    text-decoration: underline;
+}
+a.atrackback-post:link {
+    color: #001F79;
+    font-weight: bold;
+    text-decoration: underline;
+}
+a.atrackback-post:visited {
+    font-weight: bold;
+    text-decoration: underline;
+}
+a.atrackback-post:active {
+    font-weight: bold;
+}
+a.atrackback-post:hover {
+    color: #001F79;
+    font-weight: bold;
+    text-decoration: none;
+}
+label {
+    font-size: 10px;
+    font-weight: bold;
+}
+#author {
+    border: 1px solid #CCCCCC;
+    width: 200px;
+}
+#email {
+    border: 1px solid #CCCCCC;
+    width: 200px;
+}
+#url {
+    border: 1px solid #CCCCCC;
+    width: 200px;
+}
+#text {
+    border: 1px solid #CCCCCC;
+    font-size: 12px;
+    height: 200px;
+    width: 400px;
+}
+.pagetop {
+    font-size: 10px;
+    margin: 0 0 25px;
+    text-align: right;
+}
+.calendarhead {
+    background: url("http://www.junglekouen.com/_img/ori1/ori1-side.gif") no-repeat scroll left center #DBD8BD;
+    border-left: 1px none #CCCCCC;
+    border-right: 1px none #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    color: #666666;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 3px 0 3px 15px;
+    text-align: left;
+    width: 168px;
+}
+.calendartable {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    margin: 0 auto 20px;
+    text-align: left;
+    width: 183px;
+}
+.calendarweek {
+    color: #000000;
+    font-size: 10px;
+    font-weight: bold;
+}
+.calendarwd {
+    background: url("") repeat scroll 0 0 #FFFFFF;
+    color: #FFFFFF;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 2px 0 2px 5px;
+}
+.calendard {
+    border-right: 1px solid #DBD8BD;
+    border-top: 1px solid #DBD8BD;
+    empty-cells: show;
+    text-align: center;
+}
+.calendardbg {
+}
+.calender {
+    font-size: 10px;
+    padding: 2px;
+}
+.sidetitle {
+    background: url("http://www.junglekouen.com/_img/ori1/ori1-side.gif") no-repeat scroll left center #DBD8BD;
+    border-color: #CCCCCC #DBD8BD;
+    border-style: solid;
+    border-width: 1px;
+    color: #666666;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 2px 0 2px 15px;
+    width: 166px;
+}
+.side {
+    font-size: 12px;
+    line-height: 140%;
+    margin: 0 0 10px;
+    padding: 8px;
+    width: 167px;
+}
+.side .text {
+    width: 80px;
+}
+a.aside {
+    color: #001F79;
+    text-decoration: underline;
+}
+a.aside:link {
+    color: #001F79;
+    text-decoration: underline;
+}
+a.aside:visited {
+    color: #001F79;
+    text-decoration: underline;
+}
+a.aside:hover {
+    color: #001F79;
+    text-decoration: none;
+}
+a.arss {
+    color: #001F79;
+    text-decoration: underline;
+}
+a.arss:link {
+    color: #001F79;
+    text-decoration: underline;
+}
+a.arss:visited {
+    text-decoration: underline;
+}
+a.arss:active {
+}
+a.arss:hover {
+    color: #001F79;
+    text-decoration: none;
+}
+.photo {
+    text-align: center;
+}
+.nickname {
+    color: #2B5695;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.message {
+}
+.quotetable {
+}
+.quote {
+    color: #000000;
+    font-size: 10px;
+    padding: 1px;
+}
+.blogtimes {
+    margin: 0 0 16px;
+    text-align: center;
+}
+.powered {
+    margin: 0 0 10px;
+    text-align: center;
+}
+.syndicate {
+    font-size: 10px;
+    text-align: center;
+}
+.checkers {
+    font-size: 10px;
+    margin-top: 10px;
+}
+a.adtitle {
+    font-weight: bold;
+    text-decoration: underline;
+}
+a.adtitle:link {
+    font-weight: bold;
+    text-decoration: underline;
+}
+a.adtitle:visited {
+    font-weight: bold;
+    text-decoration: underline;
+}
+a.adtitle:active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+a.adtitle:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+a.addescription {
+    color: black;
+    text-decoration: none;
+}
+a.addescription:link {
+    color: black;
+    text-decoration: none;
+}
+a.addescription:visited {
+    color: black;
+    text-decoration: none;
+}
+a.addescription:active {
+    color: black;
+    text-decoration: none;
+}
+a.addescription:hover {
+    color: black;
+    text-decoration: none;
+}
+a.adurl {
+    color: blue;
+    text-decoration: none;
+}
+a.adurl:link {
+    color: #0000FF;
+    text-decoration: none;
+}
+a.adurl:visited {
+    color: #0000FF;
+    text-decoration: none;
+}
+a.adurl:active {
+    color: #0000FF;
+    text-decoration: none;
+}
+a.adurl:hover {
+    color: #0000FF;
+    text-decoration: none;
+}
+a.adld {
+    text-decoration: underline;
+}
+a.adld:link {
+    text-decoration: underline;
+}
+a.adld:visited {
+    text-decoration: underline;
+}
+a.adld:active {
+    text-decoration: underline;
+}
+a.adld:hover {
+    text-decoration: underline;
+}
+body.ad {
+}

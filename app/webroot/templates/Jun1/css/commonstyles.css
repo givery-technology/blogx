@@ -1,0 +1,276 @@
+.rank1,.rank2,.rank3,.rank4,.rank5,.point,.point1,.point2,.point3,.point4,.point5{
+	font-family: sans-serif;
+	font-weight:bold;
+}
+
+
+/* ランキング */
+#main .rank1,#main .rank2,#main .rank3,#main .rank4,#main .rank5 {
+	background-repeat: no-repeat;
+	height: 25px;
+	padding-left: 65px;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	padding-top: 35px;
+	padding-bottom:5px;
+	color: #333;
+	border-bottom:dotted 1px #666;
+	clear: both;
+}
+
+#main .rank1{
+	background-image: url(../images/rank1_a.gif);
+}
+#main .rank2{
+	background-image: url(../images/rank2_a.gif);
+}
+#main .rank3{
+	background-image: url(../images/rank3_a.gif);
+}
+#main .rank4{
+	background-image: url(../images/rank4_a.gif);
+}
+#main .rank5{
+	background-image: url(../images/rank5_a.gif);
+}
+
+
+/* ポイント */
+
+#main .point1,#main .point2,#main .point3,#main .point4,#main .point5 {
+	background-repeat: no-repeat;
+	height: 26px;
+	padding-left: 46px;
+	font-size: 16px;
+	margin-top: 10px;
+	padding-top: 14px;
+	margin-bottom: 10px;
+	border-bottom-width: 2px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCCCCC;
+	color: #3F3F3F;
+	background-position: 4px top;
+	clear: both;
+}
+#main .point {
+	font-size: 16px;
+	color: #3F3F3F;
+	background-image: url(../images/point.jpg);
+	background-repeat: no-repeat;
+	height: 20px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-left: 60px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+
+#main .point1{
+	background-image: url(../images/point1.gif);
+}
+#main .point2{
+	background-image: url(../images/point2.gif);
+}
+#main .point3{
+	background-image: url(../images/point3.gif);
+}
+#main .point4{
+	background-image: url(../images/point4.gif);
+}
+#main .point5{
+	background-image: url(../images/point5.gif);
+}
+
+/* 矢印 */
+
+.arrow_blue,.arrow_orange,.arrow_black,.arrow_red{
+	background-repeat: no-repeat;
+	font-weight: bold;
+	line-height: 160%;
+	font-size: 16px;
+	background-position: left center;
+	padding-left: 25px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	font-family:sans-serif;
+}
+
+
+.arrow_blue {
+	background-image: url(../images/arrow_blue.gif);
+}
+.arrow_orange {
+	background-image: url(../images/arrow_orange.gif);
+}
+.arrow_black {
+	background-image: url(../images/arrow_black.gif);
+}
+.arrow_red {
+	background-image: url(../images/arrow_red.gif);
+}
+
+
+/* 文字装飾 */
+
+#main blockquote {
+	font-size:12px;
+	color:#666666;
+	border: 2px dotted #CCCCCC;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	margin: 15px;
+	line-height: 130%;
+}
+
+
+#main .alert,#main .accept,#main .attention,#main .thint{
+	font-size: 12px;
+	line-height: 130%;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 55px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	min-height: 32px;
+	clear:both;
+}
+
+#main .alert {
+	background-color: #FFEFEF;
+	background-image: url(../images/alert.png);
+	background-repeat: no-repeat;
+	background-position: 10px 6px;
+	color: #A2462F;
+	border: 1px solid #FABDA7;
+}
+
+#main .accept {
+	border: 1px solid #C2E39B;
+	background-color: #EFFADA;
+	background-image: url(../images/accept.png);
+	background-repeat: no-repeat;
+	background-position: 10px 6px;
+	color: #346F15;
+}
+
+#main .attention {
+	border: 1px solid #FFDC80;
+	background-color: #FEFECB;
+	background-image: url(../images/attention.png);
+	background-repeat: no-repeat;
+	background-position: 10px 6px;
+	color: #804900;
+}
+
+#main .thint {
+	border: 1px solid #C5D7ED;
+	background-color: #EFF4FA;
+	background-image: url(../images/thint.png);
+	background-repeat: no-repeat;
+	background-position: 10px 6px;
+	color: #2C4F7A;
+}
+
+#main  .user1,#main .user2 {
+	font-size: 12px;
+	line-height: 130%;
+	padding-top: 12px;
+	padding-right: 12px;
+	padding-bottom: 12px;
+	padding-left: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-repeat: no-repeat;
+	background-position: 12px 12px;
+	background-color: #EFF4FA;
+	border: 1px solid #C5D7ED;
+	min-height: 70px;
+	_height:70px;
+}
+
+#main  .user1{
+	background-image: url(../images/user1.png);
+}
+
+#main  .user2{
+	background-image: url(../images/user2.png);
+}
+
+#main .noimage{
+	padding-left:12px;
+	background-image: none;
+	min-height:15px;
+}
+
+
+.ylw{
+	background-color:#FFE566;
+	font-weight:bold;
+	padding:2px;
+}
+
+/* ボックス */
+
+#main .nmlbox,#main .dottbox,#main .ylwbox,#main .graybg{
+	padding:15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	clear:both;
+}
+
+#main  .graybg{
+	background-color:#EBEBEB;
+}
+
+#main .dottbox{
+	border:dotted 1px #666;
+}
+#main .nmlbox {
+	border: 2px solid #CCCCCC;
+}
+#main .ylwbox {
+	background-color: #FFFFD2;
+	border: 2px solid #CC0000;
+}
+
+
+/* 水平線 */
+
+.border1,.border2,.border3,.borderdot,.borderdot2{
+	margin: 10px;
+	padding: 0px;
+	line-height: 1px;
+	height: 1px;
+}
+
+.border1 {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+}
+.border2 {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #990000;
+}
+
+.border3 {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #003366;
+}
+.borderdot {
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #999999;
+}
+.borderdot2 {
+	border-top-width: 2px;
+	border-top-style: dotted;
+	border-top-color: #999999;
+}

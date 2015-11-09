@@ -1,0 +1,201 @@
+﻿@charset "utf-8"; 
+
+
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, textarea, p, th, td, img {
+	margin: 0; 
+	padding: 0; 
+	border: 0; 
+}
+
+body {
+	background-color: #ffffff; 
+	line-height: 2;	
+	font-family: "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro"; 
+	font-size: 75%; 
+	color: #000000; 
+}
+
+ol, ul {
+	list-style: none; 
+}
+
+a { 
+	color: #0000FF; 
+	text-decoration: none; 
+}
+
+a:hover { 
+	color: #C74B15; 
+	text-decoration: underline; 
+}
+
+.color1 {
+	color: #990000; 
+}
+
+
+
+#header {
+	background-color: #e7e7eb; 
+	position: fixed; 
+	height: 110px; 
+	width: 100%; 
+	color: #000000; 
+}
+
+#header h1 {
+	position: absolute; 
+	right: 20px; 
+	top: 10px; 
+	font-size: 1em; 
+	font-weight: normal; 
+}
+
+#logo {
+	text-align: center; 
+	margin-top: 10px; 
+}
+
+
+
+#menu {
+	text-align: center; 
+}
+
+#menu a {
+	color: #000000; 
+	font-size: 1em; 
+	font-weight: bold; 
+	text-transform: uppercase; 
+	text-decoration: none; 
+	margin-right: 30px; 
+}
+
+#menu a:hover, #menu a.active {
+	color: #c9171e; 
+}
+
+
+
+#container { 
+	width: 800px; 
+	margin: 0 auto; 
+}
+
+#home {
+	height: 1000px; 
+	padding-top: 120px; 
+}
+
+#category1 {
+	height: 1000px; 
+	padding-top: 120px; 
+}
+
+#category2 {
+	height: 1000px; 
+	padding-top: 120px; 
+}
+
+#category3 {
+	height: 1000px; 
+	padding-top: 120px; 
+}
+
+#news {
+	height: 500px; 
+	padding-top: 120px; 
+}
+
+
+
+#footer {
+	background-color: #e7e7eb; 
+	position: fixed; 
+	bottom: 0; 
+	height: 40px; 
+	width: 100%; 
+}
+
+#footer p {
+	margin-top: 10px; 
+	text-align: center; 
+	font-size: 0.75em; 
+	color: #000000; 
+}
+
+
+
+#container h2 {
+	font-size: 1em; 
+	line-height: 30px; 
+	margin: 10px 5px; 
+}
+
+#container ul {
+	margin-bottom: 15px; 
+}
+
+#container ul li {
+	padding-left: 15px; 
+}
+
+#container a:hover img {
+	border: solid 1px #c9171e; 
+}
+
+
+
+.ta1 {
+	width: 600px; 
+	border-collapse: collapse; 
+	margin: 0 auto; 
+}
+
+.ta1 td {
+	border: none; 
+}
+
+.ta1 a:hover {
+	color: #000000; 
+	text-decoration: none; 
+	cursor: url(../images/cur.png), pointer; 
+}
+
+.ta2 {
+	width: 600px; 
+	border-collapse: collapse; 
+	margin: 0 auto; 
+}
+
+.ta2 th {
+	background-color: #ffd700; 
+	border: solid 1px #888084; 
+	color: #000000; 
+	padding: 5px 10px; 
+	font-size: 1em; 
+	text-align: center; 
+}
+
+.ta2 tr.even td {
+	background-color: #f0e68c; 
+}
+
+.ta2 td {
+	border: solid 1px #888084; 
+	color: #000000; 
+	padding: 5px 10px; 
+	font-size: 1em; 
+	text-align: left; 
+}
+
+.ta2 a {
+	color: #727171; 
+	text-decoration: underline; 
+}
+
+.ta2 a:hover {
+	color: #000000; 
+	text-decoration: none; 
+}

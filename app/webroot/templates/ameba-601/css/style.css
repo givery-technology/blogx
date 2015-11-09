@@ -1,0 +1,200 @@
+﻿@charset "utf-8"; /*文字コード指定*/
+
+/* ----- css reset(各ブラウザで指定されているスタイルを初期化)と全体設定 ----- */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, textarea, p, th, td, img {
+	margin: 0; /*ボックス外側の余白(値1つは上下左右をまとめて指定)*/
+	padding: 0; /*ボックス内側の余白(値1つは上下左右をまとめて指定)*/
+	border: 0; /*境界線指定*/
+}
+
+body {
+	background-color: #ffffff; /*背景色設定*/
+	line-height: 2;	/*行の高さ指定(数値のみの場合はfont-sizeの倍数)*/
+	font-family: "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro"; /*フォントの種類指定(左から優先順位)*/
+	font-size: 75%; /* フォントサイズ指定(%はブラウザに設定した標準文字サイズ(通常16px)に対する値)*/
+	color: #000000; /*文字色指定*/
+}
+
+ol, ul {
+	list-style: none; /*リストマーカーの種類指定(noneはなし)*/
+}
+
+a { /*リンクの文字設定(マウスをのせる前)*/
+	color: #0000FF; /*文字色指定*/
+	text-decoration: none; /*テキストの装飾指定(下線、上線など)(noneはなし)*/
+}
+
+a:hover { /*リンクの文字設定(マウスをのせた時)*/
+	color: #C74B15; /*文字色指定*/
+	text-decoration: underline; /*テキストの装飾指定(下線、上線など)(underlineは下線を引く)*/
+}
+
+.color1 {
+	color: #990000; /*文字色指定*/
+}
+
+/* ----- ヘッダー(ページの一番上の部分) ----- */
+
+#header {
+	background-color: #e7e7eb; /*背景色設定*/
+	position: fixed; /*ボックスの配置方法(fixedは固定)*/
+	height: 110px; /*領域の高さ指定*/
+	width: 100%; /*幅指定(100%は画面横幅いっぱいに表示)*/
+	color: #000000; /*文字色指定*/
+}
+
+#header h1 {
+	position: absolute; /*ボックスの配置方法(absoluteは絶対位置配置)*/
+	right: 20px; /*右からの距離(positionで指定している場合に適用)*/
+	top: 10px; /*上からの距離(positionで指定している場合に適用)*/
+	font-size: 1em; /*フォントサイズ指定(emはフォントの高さを１とした相対指定)*/
+	font-weight: normal; /*フォントの太さ指定(normalは標準)*/
+}
+
+#logo {
+	text-align: center; /*行の水平方向の揃え方(centerは中央揃え)*/
+	margin-top: 10px; /*ボックス外側上の余白*/
+}
+
+/* ----- ナビゲーションメニュー(ヘッダー内のメインメニュー) ----- */
+
+#menu {
+	text-align: center; /*行の水平方向の揃え方(centerは中央揃え)*/
+}
+
+#menu a {
+	color: #000000; /*文字色指定*/
+	font-size: 1em; /*フォントサイズ指定(emはフォントの高さを１とした相対指定)*/
+	font-weight: bold; /*フォントの太さ指定(boldは太字)*/
+	text-transform: uppercase; /*フォントの大文字小文字指定(uppercaseは全て大文字)*/
+	text-decoration: none; /*テキストの装飾指定(下線、上線など)(noneはなし)*/
+	margin-right: 30px; /*ボックス外側右の余白*/
+}
+
+#menu a:hover, #menu a.active {
+	color: #c9171e; /*文字色指定*/
+}
+
+/* ----- レイアウト ----- */
+
+#container { /*container(入れ物、容器)の中に各要素(ボックス)を配置*/
+	width: 800px; /*幅指定*/
+	margin: 0 auto; /*ボックス外側の余白(値2つは左から上下,左右の値(左右autoで中央配置))*/
+}
+#home {
+	height: 1000px; /*領域の高さ指定*/
+	padding-top: 120px; /*ボックス内側上の余白*/
+}
+
+#category1 {
+	height: 1000px; /*領域の高さ指定*/
+	padding-top: 120px; /*ボックス内側上の余白*/
+}
+
+#category2 {
+	height: 1000px; /*領域の高さ指定*/
+	padding-top: 120px; /*ボックス内側上の余白*/
+}
+
+#category3 {
+	height: 1000px; /*領域の高さ指定*/
+	padding-top: 120px; /*ボックス内側上の余白*/
+}
+
+#news {
+	height: 500px; /*領域の高さ指定*/
+	padding-top: 120px; /*ボックス内側上の余白*/
+}
+
+/* ----- フッター(ページの一番下の部分) ----- */
+
+#footer {
+	background-color: #e7e7eb; /*背景色設定*/
+	position: fixed; /*ボックスの配置方法(fixedは固定)*/
+	bottom: 0; /*下からの距離*/
+	height: 40px; /*領域の高さ指定*/
+	width: 100%; /*幅指定(100%は画面横幅いっぱいに表示)*/
+}
+
+#footer p {
+	margin-top: 10px; /*ボックス外側上の余白*/
+	text-align: center; /*行の水平方向の揃え方(centerは中央揃え)*/
+	font-size: 0.75em; /*フォントサイズ指定(emはフォントの高さを１とした相対指定)*/
+	color: #000000; /*文字色指定*/
+}
+
+/* ----- コンテンツ ----- */
+
+#container h2 {
+	font-size: 1em; /*フォントサイズ指定(emはフォントの高さを１とした相対指定)*/
+	line-height: 30px; /*行の高さ指定*/
+	margin: 10px 5px; /*ボックス外側の余白(値2つは左から上下,左右の値)*/
+}
+
+#container ul {
+	margin-bottom: 15px; /*ボックス外側下の余白*/
+}
+
+#container ul li {
+	padding-left: 15px; /*ボックス内側左の余白*/
+}
+
+#container a:hover img {
+	border: solid 1px #c9171e; /*境界線の一括指定(solidは1本線,線の太さ,線の色)*/
+}
+
+/* ---- テーブルの設定 ----- */
+
+.ta1 {
+	width: 600px; /*幅指定*/
+	border-collapse: collapse; /*境界線の表示指定(collapseは重ねて表示)*/
+	margin: 0 auto; /*ボックス外側の余白(値2つは左から上下,左右の値(左右autoで中央配置))*/
+}
+
+.ta1 td {
+	border: none; /*境界線の一括指定(noneはなし)*/
+}
+
+.ta1 a:hover {
+	color: #000000; /*文字色指定*/
+	text-decoration: none; /*テキストの装飾指定(下線、上線など)(noneはなし)*/
+	cursor: url(../images/cur.png), pointer; /*カーソルの形状指定(url(画像ファイル)pointerはオリジナルカーソルが表示できない場合の指定)*/
+}
+
+.ta2 {
+	width: 600px; /*幅指定*/
+	border-collapse: collapse; /*境界線の表示指定(collapseは重ねて表示)*/
+	margin: 0 auto; /*ボックス外側の余白(値2つは左から上下,左右の値(左右autoで中央配置))*/
+}
+
+.ta2 th {
+	background-color: #ffd700; /*背景色指定*/
+	border: solid 1px #888084; /*境界線の一括指定(solidは1本線,線の太さ,線の色)*/
+	color: #000000; /*文字色設定*/
+	padding: 5px 10px; /*ボックス内側の余白(値2つは左から上下,左右の値)*/
+	font-size: 1em; /*フォントサイズ指定(emはフォントの高さを１とした相対指定)*/
+	text-align: center; /*行の水平方向の揃え方(leftは左寄せ)*/
+}
+
+.ta2 tr.even td {
+	background-color: #f0e68c; /*背景色指定*/
+}
+
+.ta2 td {
+	border: solid 1px #888084; /*境界線の一括指定(solidは1本線,線の太さ,線の色)*/
+	color: #000000; /*文字色設定*/
+	padding: 5px 10px; /*ボックス内側の余白(値2つは左から上下,左右の値)*/
+	font-size: 1em; /*フォントサイズ指定(emはフォントの高さを１とした相対指定)*/
+	text-align: left; /*行の水平方向の揃え方(leftは左寄せ)*/
+}
+
+.ta2 a {
+	color: #727171; /*文字色設定*/
+	text-decoration: underline; /*テキストの装飾指定(下線、上線など)(underlineは下線)*/
+}
+
+.ta2 a:hover {
+	color: #000000; /*文字色指定*/
+	text-decoration: none; /*テキストの装飾指定(下線、上線など)(noneはなし)*/
+}

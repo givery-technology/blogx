@@ -1,0 +1,193 @@
+@charset "utf-8";
+
+/*-------------------------------------*/
+/* ヘッダー */
+/*-------------------------------------*/
+
+h1{
+	padding: 20px 0 15px;
+	font-size: 20px;
+}
+
+/*-------------------------------------*/
+/* メインイメージ */
+/*-------------------------------------*/
+
+div#mainImgBox{
+	margin: 0 auto;
+	text-align: left;
+	width: 960px;
+	background: url(https://www.sem-check.com/blogx/templates/ameba-201/img/mainimg.jpg) no-repeat top right;
+	background-color: white;	
+	min-height:334px;
+	height: auto !important;
+	height: 334px;
+	border-top: 1px solid #dedede;
+
+}
+
+div#mainImgBox div#mainMessageBox{
+	width: 310px;
+#	background: #fff;
+	border-left: 1px solid #dedede;
+	padding-left: 15px;
+}
+
+	div#mainImgBox div#mainMessageBox strong{
+		font-weight: bold;
+		font-size: 17px;
+		display: block;
+		padding: 90px 20px 10px;
+	}
+	div#mainImgBox div#mainMessageBox span{
+		padding: 0 20px;
+		display: block;
+		line-height: 1.9;
+		color: #666;
+	}
+
+/*-------------------------------------*/
+/* グローバルナビゲーション */
+/*-------------------------------------*/
+
+ul#gNavi{
+	background: #000;
+	width: 936px;
+	padding-left: 24px;
+}
+
+ul#gNavi li{
+	display: block;
+	float: left;
+	padding: 8px 0;
+	margin-right: 16px;
+	font-size: 12px;
+	letter-spacing: 0.08em;
+}
+
+ul#gNavi li a{
+	color: #fff;
+	text-decoration: none;
+	border-right: 1px solid #aaa;
+	display: block;
+	padding-right: 16px;
+}
+
+ul#gNavi li a:hover{
+	color: #a69e7b;
+}
+
+ul#gNavi li.firstItem a{
+	padding-left: 16px;
+	border-left: 1px solid #fff;
+}
+
+
+
+/*-------------------------------------*/
+
+/*-------------------------------------*/
+
+div#mainContents{
+	width: 928px;
+	padding: 0 15px 45px;
+	margin: 0 auto;
+	text-align: left;
+	background: url(https://www.sem-check.com/blogx/templates/ameba-201/img/bg_contents.gif) repeat-y 0 0;
+	border: 1px solid #ddd;
+}
+
+	div#leftContents{
+		width: 188px;
+		float: left;
+	}
+
+		div#leftContents ul#sNavi{
+			display: block;
+			margin-top: 20px;
+			border-bottom: 1px solid #fff;
+		}
+
+		div#leftContents ul#sNavi li{
+			display: block;
+			padding-top: 18px;
+			padding-bottom: 7px;
+			border-bottom: 1px solid #dedede;
+			border-top: 1px solid #fff;
+		}
+
+		div#leftContents ul#sNavi li.firstItem{
+			border-top: none;
+		}
+
+	div#centerContents{
+		width: 450px;
+		margin-left: 38px;
+		float: left;
+		display: inline;
+	}
+
+		div#centerContents h2{
+			background: url(https://www.sem-check.com/blogx/templates/ameba-201/img/bg_ch.gif) repeat-x 0 0;
+			font-size: 14px;
+			letter-spacing: 0.08em;
+			margin: 30px 0 15px;
+		}
+
+		div#centerContents h2 span{
+			background: url(https://www.sem-check.com/blogx/templates/ameba-201/img/bg_ch_top.gif) no-repeat top left;
+			padding: 6px 0 6px 22px;
+			display: block;
+			font-weight: bold;
+			line-height: 2.0;
+			-moz-box-shadow:0 0 0.5px #ccc;
+			-webkit-box-shadow:0 0 0.5px #ccc;
+
+			text-shadow:1px 0 0.5px #fff;
+
+		}
+
+		div#centerContents strong{
+			display: block;
+			margin-bottom: 7px;
+			font-weight: bold;
+			font-size: 14px;
+		}
+
+		div#centerContents span.readTxt{
+			line-height: 1.9;
+		}
+
+	div#rightContents{
+		width: 200px;
+		margin-left: 45px;
+		float: left;
+		display: inline;
+	}
+
+	div#rightContents h2{
+		font-weight: bold;
+		font-size: 14px;
+		margin: 30px 0 15px;
+	}
+
+	div#rightContents dt{
+		font-size: 10px;
+		margin-top: 12px;
+		font-weight: bold;
+		letter-spacing: 0.1em;
+	}
+
+	div#rightContents dd{
+		color: #666;
+	}
+
+	div#topicsBox dt{ color: #900;}
+
+	div#topicsBox strong{
+		font-weight: bold;
+		font-size: 13px;
+		margin-bottom: 8px;
+		display: block;
+		font-size: 14px;
+	}

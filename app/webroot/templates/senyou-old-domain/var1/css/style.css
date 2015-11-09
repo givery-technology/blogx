@@ -1,0 +1,321 @@
+@charset "shift_jis";
+
+/*
+---------------------------------------------------------------------------
+■制作元：テンプレートパーティー
+■URL：http://template-party.com/
+---------------------------------------------------------------------------*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	font: 75%/2 "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro";
+	color: #5F3811;							/*全体的な文字色*/
+	background-color: #FFFFFF;				/*背景色*/
+	background-image: url(../images/bg.jpg);	/*背景画像*/
+	background-repeat: no-repeat;			/*背景画像をリピートしない*/
+	background-position: center top;		/*背景画像を中央上部に配置*/
+}
+h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form{
+	margin: 0px;
+	padding: 0px;
+}
+ul{
+	list-style-type: none;
+}
+img {
+	border: none;
+}
+input,textarea,select {
+	font-size: 1em;
+}
+form {
+	margin: 0px;
+}
+table {
+	border-collapse:collapse;
+	font-size: 100%;
+	border-spacing: 0;
+}
+
+/*リンク（全般）設定
+---------------------------------------------------------------------------*/
+a {
+	color: #5F3811;
+}
+a:hover {
+	color: #C31301;			/*カーソルオーバー時の文字色*/
+	text-decoration: none;	/*カーソルオーバー時に下線を消す設定*/
+}
+
+/*h1タグ設定
+---------------------------------------------------------------------------*/
+h1 {
+	font-size: 10px;	/*文字サイズ*/
+	color: #FFFFFF;		/*文字色*/
+	text-align: right;	/*文字を右寄せ*/
+	line-height: 30px;	/*行間*/
+	padding-bottom: 234px;	/*h1タグの下に234px空白を作る。背景画像に合わせて変更するといい。*/
+}
+h1 a {
+	text-decoration: none;
+	color: #FFFFFF;		/*文字色*/
+}
+
+/*コンテナー（HPを囲むブロック）
+---------------------------------------------------------------------------*/
+#container {
+	width: 960px;	/*コンテナー幅*/
+	background-image: url(../images/container_bg.jpg);	/*メイン画像(背景画像)の読み込み*/
+	background-repeat: no-repeat;					/*画像をリピートしない*/
+	background-position: center top;				/*背景画像を中央上部に配置*/
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*メインコンテンツ（右側ブロック）
+---------------------------------------------------------------------------*/
+#main {
+	float: right;	/*右側に回り込み*/
+	width: 700px;	/*メインコンテンツ幅*/
+	padding-bottom: 50px;
+}
+/*h2タグ設定*/
+#main h2 {
+	font-size: 120%;	/*文字サイズ*/
+	color: #FFFFFF;		/*文字色*/
+	line-height: 40px;
+	height: 40px;
+	background-image: url(../images/bg2.gif);	/*h2タグ背景画像*/
+	background-repeat: no-repeat;			/*背景画像をリピートしない*/
+	width: 690px;
+	padding-left: 10px;
+	overflow: hidden;
+}
+/*段落タグの余白設定*/
+#main p {
+	padding: 0.5em 10px 1em;	/*左から、上、左右、下への余白*/
+}
+
+/*サブコンテンツ（左側ブロック）
+---------------------------------------------------------------------------*/
+#sub {
+	float: left;	/*左側に回り込み*/
+	width: 200px;	/*サブコンテンツ幅*/
+	padding-top: 9px;
+	padding-left: 20px;
+	padding-bottom: 50px;
+}
+/*ロゴ画像*/
+#sub #logo {
+	padding-bottom: 20px;	/*ロゴの下に20pxの余白*/
+}
+/*サブメニュー*/
+#sub ul.submenu li {
+	padding-bottom: 10px;	/*サブメニュー同士の余白*/
+}
+#sub ul.submenu img {
+	vertical-align: bottom;
+}
+
+/*トップページ内「更新情報・お知らせ」ブロック
+---------------------------------------------------------------------------*/
+#main .new {
+	overflow: auto;
+	height: 150px;			/*ボックスの高さ*/
+	width: 680px;
+	padding-left: 10px;
+}
+#main .new dl {
+	clear: left;
+	width: 660px;
+	border-bottom: 1px solid #cccccc;	/*日付ごとに入る下線の幅、線種、色*/
+	overflow: hidden;
+}
+#main .new dt {
+	font-weight: bold;	/*日付を太字に*/
+	float: left;
+	width: 100px;
+}
+#main .new dd {
+	float: left;
+	width: 560px;
+}
+#main .new dd img {
+	vertical-align: middle;
+}
+*html #main .new dd img {
+	margin-top:0.5em;
+	vertical-align: baseline;
+}
+
+/*フッター（Copyrightが入っている最下部ブロック）
+---------------------------------------------------------------------------*/
+#footer {
+	text-align: center;	/*センタリング*/
+	width: 100%;
+	clear: both;
+	background-image: url(../images/footer_bg.jpg);	/*フッター背景画像*/
+	color: #FFFFFF;	/*文字色*/
+	line-height: 20px;
+	height: 50px;
+	padding-top: 10px;
+}
+/*フッター内にリンク設定した場合用*/
+#footer a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/*テーブル１
+---------------------------------------------------------------------------*/
+.ta1 {
+	width: 700px;
+}
+.ta1, .ta1 td, .ta1 th{
+	border: 3px solid #5F3811;	/*テーブルの枠線の幅、線種、色*/
+	line-height: 2;
+}
+.ta1 td {
+	padding: 10px;	/*テーブル内の余白*/
+	width: 25%;
+	text-align: center;
+}
+/*テーブル１行目に入った見出し部分*/
+.ta1 th{
+	background-color: #C31301;	/*背景色*/
+	text-align: left;
+	padding: 10px;
+	color: #FFFFFF;
+}
+
+/*テーブル２
+---------------------------------------------------------------------------*/
+.ta2 {
+	width: 700px;
+}
+.ta2, .ta2 td, .ta2 th{
+	border: 3px solid #5F3811;	/*テーブルの枠線の幅、線種、色*/
+	line-height: 2;
+}
+/*テーブル内の右側*/
+.ta2 td{
+	width: 457px;				/*幅*/
+	padding: 10px;				/*テーブル内の余白*/
+	vertical-align: top;
+}
+/*テーブル内の段落タグの余白*/
+.ta2 p {
+	padding: 0px !important;
+}
+/*テーブル内の左側の見出し部分*/
+.ta2 th{
+	width: 200px;				/*幅*/
+	padding: 10px;				/*テーブル内の余白*/
+	text-align: center;			/*文字をセンタリング*/
+	background-color: #FFF100;	/*背景色*/
+	color: #5F3811;				/*文字色*/
+}
+/*テーブル内のh3タグ設定*/
+.ta2 h3 {
+	font-size: 100%;
+	border-bottom: 3px dashed #C31301;	/*h3タグ下部の線幅、線種、色*/
+	margin-bottom: 0.5em;
+	color: #C31301;	/*文字色*/
+}
+/*テーブル１行目に入った見出し部分*/
+.ta2 th.tamidashi{
+	width: auto;
+	text-align: left;
+	background-color: #C31301;	/*背景色*/
+	color: #FFF;
+}
+
+/*ＦＡＱページ設定
+---------------------------------------------------------------------------*/
+/*質問（Ｑ）設定*/
+dl.faq dt {
+	font-weight: bold;	/*質問の文字を太字に。通常がいいならこの１行削除。*/
+	color: #C31301;		/*文字色*/
+	background-image: url(../images/faq_q.gif);	/*Ｑアイコン読み込み*/
+	background-repeat: no-repeat;				/*アイコンをリピートしない*/
+	background-position: left top;				/*アイコンを左側の上部に配置*/
+	padding-left: 30px;							/*アイコン分の余白を作る*/
+}
+/*回答（Ａ）設定*/
+dl.faq dd {
+	background-image: url(../images/faq_a.gif);	/*Ａアイコン読み込み*/
+	background-repeat: no-repeat;				/*アイコンをリピートしない*/
+	background-position: left top;				/*アイコンを左側の上部に配置*/
+	padding-left: 30px;							/*アイコン分の余白を作る*/
+}
+
+/*その他
+---------------------------------------------------------------------------*/
+.look {
+	background-color: #d8d8d8;
+}
+.mb1em {
+	margin-bottom: 1em;
+}
+.clear {
+	clear: both;
+}
+ul.disc {
+	padding: 0em 25px 1em;
+	list-style: disc;
+	text-align: left;
+}
+.color1 {
+	color: #C31301;
+}
+.pr {
+	font-size: 10px;
+}
+#access {
+	background-image: url(../images/access_bg.gif);
+	background-repeat: no-repeat;
+	height: 90px;
+	width: 200px;
+	position: relative;
+	color: #FFFFFF;
+}
+#access p {
+	font-size: 11px;
+	line-height: 18px;
+	position: absolute;
+	height: 50px;
+	width: 200px;
+	left: 0px;
+	top: 40px;
+	text-align: center;
+	padding: 0px;
+}
+.btn {
+	font-size: 13px;
+}
+.wl {
+	width: 96%;
+}
+.ws {
+	width: 50%;
+}
+.c {
+	text-align: center;
+}
+
+.menu{
+font-size: 120%;
+color: #FFF;
+line-height: 40px;
+height: 55px;
+background-image: url('../images/bg3.gif');
+background-repeat: no-repeat;
+padding-left: 10px;
+overflow: hidden;
+margin-top: 27px;
+text-align: center;
+ font-weight:bold; 
+}

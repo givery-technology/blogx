@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+
+/*-------------------------------------*/
+
+p#mainImg{}
+
+div#mainContents h2{
+	font-weight: bold;
+	font-size: 14px;
+	margin: 45px 0 20px 0;
+	padding: 4px 0 4px 10px;
+	display: block;
+	color: #fff;
+	background: url(../images/bg_blue.gif) repeat 0 0;
+}
+
+/* CHAPTER */
+div#conceptBox{
+	margin-bottom: 30px;
+}
+
+div#conceptBox h2{
+	margin-top: 30px;
+}
+
+/* 新着情報 */
+div#topicsBox{}
+
+div#topicsBox h2{}
+
+div#topicsBox table{
+	width: 700px;
+	border: 1px solid #ccc;
+}
+
+div#topicsBox table th,
+div#topicsBox table td{
+	border-bottom: 1px solid #ccc;
+}
+
+div#topicsBox table th{
+	padding: 10px 0 10px 14px;
+	width: 100px;
+	background: url(../images/bg_border.gif) repeat 0 0;
+
+}
+div#topicsBox table td{
+	padding: 10px 0 10px 20px;
+	border-left: 1px solid #ccc;
+}
+
+
+/* 見出し */
+div.chapterBox{}
+
+div.chapterBox h2{}
+
+div.chapterBox strong{
+	display: block;
+	font-weight: bold; color: #666;
+	margin-bottom: 8px;
+}
+
+div.chapterBox span{
+	display: block;
+	margin-bottom: 8px;
+}
+
+div.chapterBox a{
+	display: block;
+	margin-bottom: 28px;
+}
+
+/*-------------------------------------*/
+div#footer{
+	clear: both;
+	color: #333;
+	margin-top: 45px;
+	padding: 30px 0;
+	border-top: 1px solid #efefef;
+}
+div#footer p#copyright{
+	padding: 8px 0;
+	text-align: center;
+}

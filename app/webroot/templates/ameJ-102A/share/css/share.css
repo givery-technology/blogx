@@ -1,0 +1,220 @@
+@charset "utf-8";
+
+div#subHeader{
+	margin-left: 220px;
+	font-size: 10px;
+	color: #666;
+	letter-spacing: 0.14em;
+}
+
+div#wrapper{
+	width: 920px;
+	padding: 20px;
+	font-family: 'Arial', 'Lucida Grande', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'ＭＳ Ｐゴシック', Osaka, sans-serif;
+}
+
+
+div#header{
+	padding: 40px 0;
+#	margin: 180px 0 60px 0;
+}
+
+h1{
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+
+
+ul#gNavi{
+	width: 960px;
+	font-size: 14px;
+}
+
+ul#gNavi li{
+	float: left;
+	display: block;
+	margin-right: 15px;
+}
+
+ul#gNavi li a{
+	text-decoration: none;
+	color: #999;
+}
+
+ul#gNavi li a:hover{
+	color: #666;
+}
+
+div#mainContents{
+	background-image: url("https://www.sem-check.com/blogx/templates/ameJ-102A/share/img/img_thumb1.jpg");	
+  background-repeat: no-repeat;            /* 背景を繰り返さない */
+  background-position: 0% 100%;            /* 背景画像の位置は画面中央 */
+  background-attachment:fixed;             /* 背景画像を固定する */
+}
+div#mainContents div.contentsBlock{
+	margin-bottom: 180px;
+	display: block;
+
+}
+
+div#mainContents div.contentsBlock:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+ }
+
+
+div#mainContents div h2{
+	width: 220px;
+	font-size: 16px;
+	float: left;
+	padding-top: 30px;
+	background: url(../img/bg_dash.gif) no-repeat 0 0;
+	letter-spacing: 0.05em;
+}
+
+div#mainContents div.mainBlock{
+	padding-top: 30px;
+	background: url(../img/bg_dash.gif) no-repeat 0 0;
+	width: 650px;
+	float: left;
+}
+
+div#mainContents div.mainBlock strong.titChapter{
+	display: block;
+	margin-bottom: 30px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+
+
+div#mainContents div.mainBlock p{
+	line-height: 2.0;
+	color: #666;
+}
+
+
+
+div#mainContents div#about{}
+
+
+
+div#mainContents div#topics{}
+
+div#topics div.mainBlock table{
+	font-size: 12px;
+}
+
+div#topics div.mainBlock table th,
+div#topics div.mainBlock table td{
+	padding-bottom: 8px;
+}
+
+
+div#topics div.mainBlock table th{
+	color: #b7aa79;
+	padding-right: 30px;
+}
+div#topics div.mainBlock table td{}
+
+div#topics div.mainBlock table td a{
+	text-decoration: none;
+	color: #666;
+}
+
+div#topics div.mainBlock table td a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+div#mainContents div#works{}
+
+div#mainContents div#works div.clearfix{
+	margin-bottom: 45px;
+}
+
+div#mainContents div#works div.worksBlock{
+	width: 208px;
+	float: left;
+	display: inline;
+	margin-left: 13px;
+}
+
+div#mainContents div#works div.firstItem{
+	margin-left: 0;
+}
+
+div#mainContents div#works div.worksBlock a{}
+div#mainContents div#works div.worksBlock a img{
+	padding-bottom: 20px;
+}
+
+div#mainContents div#works div.worksBlock strong{
+	font-weight: bold;
+	display: block;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+div#mainContents div#works div.worksBlock span{
+	display: block;
+	text-align: justify;
+	line-height: 1.6;
+}
+
+div#mainContents div#works div.worksBlock{}
+div#mainContents div#works div.worksBlock{}
+div#mainContents div#works div.worksBlock{}
+
+
+
+
+div#mainContents div#menu{}
+
+div#mainContents div#menu ul{
+	display: block;
+	float: left;
+	margin-left: 60px;
+}
+
+div#mainContents div#menu ul.firstItem{
+	margin-left: 0;
+}
+
+div#mainContents div#menu ul li{
+	display: block;
+	padding-bottom: 8px;
+}
+
+
+
+div#mainContents div#access{}
+
+div#mainContents div#access dl{
+	margin-top: 30px;
+}
+
+div#mainContents div#access dl dt{
+	margin-bottom: 7px;
+	font-weight: bold;
+}
+
+div#mainContents div#access dl dd{
+	margin-bottom: 12px;
+	color: #666;
+}
+
+
+
+div#mainContents div#recruit{}
+
+
+
+div#mainContents div#twitter{}
+

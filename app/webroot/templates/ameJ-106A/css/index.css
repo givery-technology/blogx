@@ -1,0 +1,14 @@
+#contents{
+	background:url(../img/bg_main.gif) repeat-y;
+	margin:0px 0 0 0; width:830px;
+}
+#contents div.txt p{
+	line-height:180%;
+	margin:0 0 20px 0;
+}
+#main{
+	margin:0 114px 0 114px;
+}
+#main p{
+	margin:8px 0 0 0;
+}

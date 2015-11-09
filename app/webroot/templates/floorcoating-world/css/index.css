@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+p#mainImg{
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+div#mainContents{
+	padding: 30px 60px;
+}
+
+div#leftContents{
+	width: 400px;
+	float: left;
+	margin-right: 25px;
+}
+
+div#topicsBox{
+	width: 560px;
+	margin-bottom: 30px;
+}
+	div#topicsBox dl {
+	 width:390px;
+	}
+	div#topicsBox dt {
+	 float:left;
+	 width:100px;
+	 padding:0 0 3px 0px;
+	 clear:both;
+	 font-weight:bold;
+	}
+	div#topicsBox dd {
+	 width:260px;
+	 margin-left:100px;
+	 padding:0 0 3px 0px;
+	}
+
+
+
+div#aboutBox{
+	width: 820px;
+	margin-bottom: 30px;
+}
+
+	div#aboutBox dl {
+	 width:390px;
+	}
+	div#aboutBox dt {
+	 float:left;
+	 width:100px;
+	 padding:0 0 3px 0px;
+	 clear:both;
+	 font-weight:bold;
+	}
+	div#aboutBox dd {
+	 width:260px;
+	 margin-left:100px;
+	 padding:0 0 3px 0px;
+	 color: #666;
+	}
+
+
+div#tweet{
+	width: 200px;
+	float: right;
+	margin-right: 20px;
+	display: inline;
+}
+
+div#mainContents strong{
+	display: block;
+	font-size: 14px;
+	letter-spacing: 0.08em;
+	background: url(../images/bg_dotted.gif) repeat-x left bottom;
+	padding-bottom: 8px;
+	margin-bottom: 15px;
+}
+
+div#mainContents strong.contract{
+	display: block;
+	font-size: 14px;
+	letter-spacing: 0.08em;
+	background: url(../images/bg_dotted.gif) repeat-x left bottom;
+	padding-bottom: 8px;
+	margin-bottom: 15px;
+	padding-top: 80px;
+}
+
+div#mainContents p{
+margin-bottom: 15px;
+}
+
+#tweet ul, ol, li {
+	list-style-type: none;
+}
+#tweet li {
+	font-size: .62em;
+	line-height: 1.5;
+	margin-bottom: 8px;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #CCC;
+}
+#tweet li a {
+	font-size: 1.5em;
+}
+
+#tweet li a:link,
+#tweet li a:visited {
+	color: #0099ff;
+	text-decoration: none;
+}
+#tweet li a:hover,
+#tweet li a:focus,
+#tweet li a:active {
+	color: #666;
+	text-decoration: none;
+}
+
+div#bannerBox{
+	float: right;
+	margin-top: 30px;
+}
+
+div#bannerBox ul li{
+	display: block;
+	margin-bottom: 11px;
+}

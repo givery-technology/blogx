@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+   RewriteRule    ^$ app/webroot/    [L]
+   RewriteRule    (.*) app/webroot/$1 [L]
+</IfModule>
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^sem-check.com
+RewriteRule (.*) https://www.sem-check.com/blogx/$1 [R=301,L]
+
+IndexOptions +Charset=UTF-8

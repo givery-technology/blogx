@@ -1,0 +1,179 @@
+@charset "shift_jis";
+
+
+body {
+	font-family: "メイリオ", "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	font-size: 75%;
+	line-height: 2;
+	color: #C3BDA6;
+	background: #E9E7DE url(images/bg.gif);
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+h1,h2,h3,p{
+	margin: 0px;
+	padding: 0px;
+}
+img {
+	border: none;
+}
+
+
+/*リンク設定
+------------------------------------------------------------------
+aがリンクですよ～という色で、a:hoverがカーソルが乗った時の色。
+------------------------------------------------------------------*/
+a {
+	color: #9c9785;
+}
+a:hover {
+	color: #686558;
+}
+
+
+/*右上h1タグの設定。10pxが文字サイズ。
+------------------------------------------------------------------*/
+h1 {
+	font-size: 10px;
+	font-weight: normal;
+	text-align: right;
+	width: 903px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+/*コンテナー
+------------------------------------------------------------------
+中央(白)と右側(ベージュ)のブロックの下が揃うように画像で指定しています。
+つまり、imagesフォルダに入っているcontainer_bg.gifの色をあなたの
+好きな色に編集して上書きすればその色になるという事。
+------------------------------------------------------------------*/
+#container {
+	background: url(images/container_bg.gif) repeat-y;
+	margin: 30px auto 8px;
+	width: 903px;
+	text-align: left;
+}
+
+
+/*メインメニュー
+------------------------------------------------------------------*/
+ul#menu {
+	list-style-type: none;
+	margin: 8px 0px;
+	padding: 0px;
+	font-size: 12px;
+}
+/*メインメニューのリンク設定
+------------------------------------------------------------------*/
+ul#menu a {
+	background: url(images/menu_bg.gif) no-repeat;
+	height: 38px;
+	margin-bottom: 3px;
+	line-height: 38px;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	padding-left: 20px;
+	letter-spacing: 0.1em;
+}
+ul#menu a:hover {
+	background: url(images/menu_bg_over.gif) no-repeat;
+}
+
+
+/*コンテンツ、サブコンテンツ（変更しない）
+------------------------------------------------------------------*/
+#contents {
+	float: left;
+	width: 699px;
+}
+#sub {
+	float: left;
+	width: 196px;
+}
+
+
+/*メインコンテンツ
+------------------------------------------------------------------*/
+#main {
+	float: right;
+	width: 476px;
+	padding: 10px;
+	background: #FFFFFF;
+}
+#main h2 {
+	font-size: 100%;
+	border: 3px double #E9E7DE;
+	line-height: 30px;
+	padding-left: 10px;
+	background: url(images/h2_bg.gif) repeat-x bottom;
+}
+#main p,#side p {
+	margin: 1em 10px;
+}
+/*メインコンテンツ内のリストタグ
+------------------------------------------------------------------*/
+#main ul {
+	margin: 0px;
+	padding: 0px 10px 0px 20px;
+}
+#main ul li {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+
+/*サイド（一番右側）コンテンツ
+------------------------------------------------------------------*/
+#side {
+	float: right;
+	width: 176px;
+	margin-left: 8px;
+	padding: 10px;
+	color: #FFFFFF;
+	background: #cfcbb8;
+}
+#side h3 {
+	font-size: 100%;
+	border: 3px double #E9E7DE;
+	line-height: 30px;
+	text-align: center;
+	background: url(images/h3_bg.gif) repeat-x top;
+}
+
+
+/*フッター（変更不要）
+------------------------------------------------------------------*/
+#footer {
+	background: #CFCBB8;
+	clear: both;
+	width: 903px;
+	margin-right: auto;
+	margin-left: auto;
+	color: #FFFFFF;
+}
+#footer a {
+	color: #FFFFFF;
+}
+
+
+
+
+/*clearfix（変更しない）
+------------------------------------------------------------------*/
+#container:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+#container { display: inline-block; }
+
+/* Hides from IE-mac \*/
+*html #container { height: 1%; }
+#container { display: block; }
+/* End hide from IE-mac */

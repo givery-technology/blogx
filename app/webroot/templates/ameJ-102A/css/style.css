@@ -1,0 +1,225 @@
+﻿@charset "utf-8"; /*文字コード指定*/
+
+/* ----- css reset(各ブラウザで指定されているスタイルを初期化)と全体設定 ----- */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, textarea, p, th, td, img {
+	margin: 0; /*ボックス外側の余白(値1つは上下左右をまとめて指定)*/
+	padding: 0; /*ボックス内側の余白(値1つは上下左右をまとめて指定)*/
+	border: 0; /*境界線指定*/
+}
+
+body {
+	background-image: url(../images/bg.gif); /*背景画像指定　url(画像ファイルを指定)*/
+	background-repeat: repeat-x; /*背景画像の並べかた(repeat-xは横方向に繰り返し並べる)*/
+	background-color: #ffcc46; /*背景色指定*/
+	line-height: 2;	/*行の高さ指定(数値のみの場合はfont-sizeの倍数)*/
+	font-family: "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro"; /*フォントの種類指定(左から優先順位)*/
+	font-size: 75%; /* フォントサイズ指定(%はブラウザに設定した標準文字サイズ(通常16px)に対する値)*/
+	color: #333333; /*文字色指定*/
+}
+
+ol, ul {
+	list-style: none; /*リストマーカーの種類指定(noneはなし)*/
+}
+
+a { /*リンクの文字設定(マウスをのせる前)*/
+	color: #0000FF; /*文字色指定*/
+	text-decoration: none; /*テキストの装飾指定(下線、上線など)(noneはなし)*/
+}
+
+a:hover { /*リンクの文字設定(マウスをのせた時)*/
+	color: #C74B15; /*文字色指定*/
+	text-decoration: underline; /*テキストの装飾指定(下線、上線など)(underlineは下線を引く)*/
+}
+
+.color1 {
+	color: #FF0033; /*文字色指定*/
+}
+
+hr {
+	margin: 20px 0; /*ボックス外側の余白(値2つは左から上下,左右の値)*/
+	border: none; /*境界線指定*/
+	background-color: #696969; /*背景色指定*/
+	height: 1px; /*領域の高さ指定*/
+}
+
+/* ----- ヘッダー(ページの一番上の部分) ----- */
+
+#header {
+	float: left; /*要素を左か右に寄せて配置(leftは左に寄せる)*/
+	height: auto; /*領域の高さ指定*/
+	width: 180px; /*幅指定(autoは初期値に戻す)*/
+	margin-bottom: 20px; /*ボックス外側下の余白*/
+	margin-left: 125px;
+s}
+
+#header h1 {
+	margin: 10px 0; /*ボックス外側の余白(値2つは左から上下,左右の値)*/
+	font-size: 1em; /*フォントサイズ指定(emはフォントの高さを１とした相対指定)*/
+	font-weight: normal; /*フォントの太さ指定(normalは標準)*/
+}
+
+#header h2 {
+	margin: 10px 0; /*ボックス外側の余白(値2つは左から上下,左右の値)*/
+	font-size: 1em; /*フォントサイズ指定(emはフォントの高さを１とした相対指定)*/
+}
+
+/* ----- ナビゲーションメニュー(ヘッダー内のメインメニュー) ----- */
+
+.nav {
+	font-weight: bold; /*フォントの太さ指定(boldは太字)*/
+}
+
+.nav li {
+	line-height: 30px; /*行の高さ指定*/
+	padding-left: 20px; /*ボックス内側左の余白*/
+}
+
+.nav li a {
+	color: #333333; /*文字色指定*/
+	text-decoration: none; /*テキストの装飾指定(下線、上線など)(noneはなし)*/
+}
+
+.nav .home {
+	background: url(../images/home.png) no-repeat 0 8px; /*背景画像指定　url(画像ファイルを指定)*/
+}
+
+.nav .activity {
+	background: url(../images/activity.png) no-repeat 0 8px; /*背景画像指定　url(画像ファイルを指定)*/
+}
+
+.nav .map {
+	background: url(../images/map.png) no-repeat 0 8px; /*背景画像指定　url(画像ファイルを指定)*/
+}
+
+.nav .mail {
+	background: url(../images/mail.png) no-repeat 0 8px; /*背景画像指定　url(画像ファイルを指定)*/
+}
+
+.nav .contact {
+	background: url(../images/contact.png) no-repeat 0 8px; /*背景画像指定　url(画像ファイルを指定)*/
+}
+
+/* ----- リスト(ヘッダー内のリスト) ----- */
+
+.list {
+	margin-bottom: 10px; /*ボックス外側下の余白*/
+}
+
+.list li {
+	line-height: 30px; /*行の高さ指定*/
+	padding-left: 10px; /*ボックス内側左の余白*/
+}
+
+.list li a {
+	color: #333333; /*文字色指定*/
+	text-decoration: none; /*テキストの装飾指定(下線、上線など)(noneはなし)*/
+}
+
+/* ----- レイアウト ----- */
+
+#container { /*container(入れ物、容器)の中に各要素(ボックス)を配置*/
+	width: 950px; /*幅指定(100%は画面横幅いっぱいに表示)*/
+	margin: 0 auto; /*ボックス外側の余白(値2つは左から上下,左右の値)*/
+}
+
+#content {
+	float: left; /*要素を左か右に寄せて配置(rightは右に寄せる)*/
+	width: 740px; /*幅指定(100%は画面横幅いっぱいに表示)*/
+	margin-bottom: 20px; /*ボックス外側下の余白*/
+	margin-left: 100px;
+}
+
+/* ----- フッター(ページの一番下の部分) ----- */
+
+#footer {
+	clear: both; /*floatの回り込みを解除*/
+	height: 50px; /*領域の高さを指定*/
+	width: 100%; /*幅指定(autoは初期値に戻す)*/
+	background-image: url(../images/foot.gif); /*背景画像指定　url(画像ファイルを指定)*/
+	background-repeat: repeat-x; /*背景画像の並べかた(repeat-xは横方向に繰り返し並べる)*/
+}
+
+#footer_inner {
+	position: relative; /*ボックスの配置方法(relativeは相対位置配置)*/
+	width: 950px; /*幅指定*/
+	margin-left: auto; /*ボックス外側左の余白(margin-right: autoとセットで中央寄せ)*/
+	margin-right: auto; /*ボックス外側右の余白(margin-left: autoとセットで中央寄せ)*/
+}
+
+#footer p {
+	position: absolute; /*ボックスの配置方法(absoluteは絶対位置配置)*/
+	right: 10px; /*右からの距離(positionで指定している場合に適用)*/
+	top: 10px; /*下からの距離(positionで指定している場合に適用)*/
+	font-size: 0.75em; /*フォントサイズ指定(emはフォントの高さを１とした相対指定)*/
+	color: #ffffff; /*文字色指定*/
+}
+
+/* ----- フッターメニュー ----- */
+
+#footmenu {
+	left: 10px; /*左からの距離(positionで指定している場合に適用)*/
+	top: 10px; /*下からの距離(positionで指定している場合に適用)*/
+}
+
+#footmenu li {
+	padding-left: 15px; /*ボックス内側左の余白*/
+	margin-left: 15px; /*ボックス外側左の余白*/
+	border-left: solid 1px #ffcc46; /*左境界線の一括指定(solidは1本線,線の太さ,線の色)*/
+	display: inline; /*要素の表示形式指定(inlineはインラインレベルで表示(リストを横並び))*/
+	list-style-type: none; /*リストマーカーの種類指定(noneはなし)*/
+}
+
+#footmenu li.first {
+	border-left: none; /*左境界線の一括指定(noneはなし)*/
+}
+
+#footmenu a { /*リンクの文字設定(マウスをのせる前)*/
+	font-size: 0.75em; /*フォントサイズ指定(emはフォントの高さを１とした相対指定)*/
+	color: #ffffff; /*文字色指定*/
+	text-decoration: none; /*テキストの装飾指定(下線、上線など)(noneはなし)*/
+}
+
+#footmenu a:hover { /*リンクの文字設定(マウスをのせた時)*/
+	text-decoration: underline; /*テキストの装飾指定(下線、上線など)(underlineは下線を引く)*/
+}
+
+/* ----- コンテンツ ----- */
+
+.post {
+	clear: both; /*floatの回り込みを解除*/
+	width: auto; /*幅指定(autoは初期値に戻す)*/
+	margin: 10px 0; /*ボックス外側の余白(値2つは左から上下,左右の値)*/
+}
+
+.post h2 {
+	margin: 0; /*ボックス外側の余白(値1つは上下左右をまとめて指定)*/
+	font-size: 1em; /*フォントサイズ指定(emはフォントの高さを１とした相対指定)*/
+	line-height: 30px; /*行の高さ指定*/
+}
+
+.post ul {
+	margin-bottom: 10px; /*ボックス外側下の余白*/
+}
+
+.post ul li {
+	padding-left: 15px; /*ボックス内側左の余白*/
+}
+
+.newlist {
+	margin-bottom: 15px; /*ボックス外側下の余白*/
+	border: solid 1px #696969; /*境界線の一括指定(solidは1本線,線の太さ,線の色)*/
+}
+
+.newlist dl {
+	width: auto; /*幅指定(autoは初期値に戻す)*/
+	height: 200px; /*領域の高さ指定*/
+	overflow: auto; /*領域に入りきらない内容の処理(autoはブラウザに依存(通常はみ出す場合はスクロール表示))*/
+	padding-left: 400px; /*ボックス内側左の余白*/
+	text-align: left; /*行の水平方向の揃え方(leftは左寄せ)*/
+}
+
+.newlist dd {
+	border-bottom: solid 1px #696969; /*下境界線の一括指定(solidは1本線,線の太さ,線の色)*/
+	margin: 5px 10px 10px 5px; /*ボックス外側の余白(値4つは左から上,右,下,左の値)*/
+}
