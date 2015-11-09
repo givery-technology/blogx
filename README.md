@@ -1,4 +1,4 @@
-#BlogXX 
+#BlogX
 =======
 
 ## Dev Server
@@ -12,6 +12,6 @@ Password: 123456
 
 Db
 Login: testdb
-Passwork: le.hung@givery.co.jp
+Password: le.hung@givery.co.jp
 ```
 
